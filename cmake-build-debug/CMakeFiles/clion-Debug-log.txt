@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja -S /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP -B /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
+-- Found lab directory: lab01
+-- Adding executable: lab01_lab0101 from /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0101.cpp
+-- Adding executable: lab01_lab0102 from /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0102.cpp
+-- C++ compiler: /usr/bin/clang++
+-- MacOS SDK path: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
