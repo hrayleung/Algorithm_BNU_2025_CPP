@@ -51,15 +51,15 @@ build cmake_object_order_depends_target_lab01_lab0101: phony || CMakeFiles/lab01
 
 build CMakeFiles/lab01_lab0101.dir/lab01/lab0101.cpp.o: CXX_COMPILER__lab01_lab0101_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0101.cpp || cmake_object_order_depends_target_lab01_lab0101
   DEP_FILE = CMakeFiles/lab01_lab0101.dir/lab01/lab0101.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab01_lab0101.dir
   OBJECT_FILE_DIR = CMakeFiles/lab01_lab0101.dir/lab01
 
-build CMakeFiles/lab01_lab0101.dir/lab01/lab0102.cpp.o: CXX_COMPILER__lab01_lab0101_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0102.cpp || cmake_object_order_depends_target_lab01_lab0101
-  DEP_FILE = CMakeFiles/lab01_lab0101.dir/lab01/lab0102.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include
+build CMakeFiles/lab01_lab0101.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0101_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0101
+  DEP_FILE = CMakeFiles/lab01_lab0101.dir/lab01/lab0104.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab01_lab0101.dir
   OBJECT_FILE_DIR = CMakeFiles/lab01_lab0101.dir/lab01
 
@@ -71,8 +71,9 @@ build CMakeFiles/lab01_lab0101.dir/lab01/lab0102.cpp.o: CXX_COMPILER__lab01_lab0
 #############################################
 # Link the executable lab01_lab0101
 
-build lab01_lab0101: CXX_EXECUTABLE_LINKER__lab01_lab0101_Debug CMakeFiles/lab01_lab0101.dir/lab01/lab0101.cpp.o CMakeFiles/lab01_lab0101.dir/lab01/lab0102.cpp.o
+build lab01_lab0101: CXX_EXECUTABLE_LINKER__lab01_lab0101_Debug CMakeFiles/lab01_lab0101.dir/lab01/lab0101.cpp.o CMakeFiles/lab01_lab0101.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab01_lab0101.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -90,8 +91,15 @@ build cmake_object_order_depends_target_lab01_lab0102: phony || CMakeFiles/lab01
 
 build CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o: CXX_COMPILER__lab01_lab0102_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0102.cpp || cmake_object_order_depends_target_lab01_lab0102
   DEP_FILE = CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab01_lab0102.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0102.dir/lab01
+
+build CMakeFiles/lab01_lab0102.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0102_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0102
+  DEP_FILE = CMakeFiles/lab01_lab0102.dir/lab01/lab0104.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab01_lab0102.dir
   OBJECT_FILE_DIR = CMakeFiles/lab01_lab0102.dir/lab01
 
@@ -103,13 +111,87 @@ build CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o: CXX_COMPILER__lab01_lab0
 #############################################
 # Link the executable lab01_lab0102
 
-build lab01_lab0102: CXX_EXECUTABLE_LINKER__lab01_lab0102_Debug CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o
+build lab01_lab0102: CXX_EXECUTABLE_LINKER__lab01_lab0102_Debug CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o CMakeFiles/lab01_lab0102.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab01_lab0102.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = lab01_lab0102
   TARGET_PDB = lab01_lab0102.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab01_lab0103
+
+
+#############################################
+# Order-only phony target for lab01_lab0103
+
+build cmake_object_order_depends_target_lab01_lab0103: phony || CMakeFiles/lab01_lab0103.dir
+
+build CMakeFiles/lab01_lab0103.dir/lab01/lab0103.cpp.o: CXX_COMPILER__lab01_lab0103_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0103.cpp || cmake_object_order_depends_target_lab01_lab0103
+  DEP_FILE = CMakeFiles/lab01_lab0103.dir/lab01/lab0103.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab01_lab0103.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0103.dir/lab01
+
+build CMakeFiles/lab01_lab0103.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0103_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0103
+  DEP_FILE = CMakeFiles/lab01_lab0103.dir/lab01/lab0104.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab01_lab0103.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0103.dir/lab01
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab01_lab0103
+
+
+#############################################
+# Link the executable lab01_lab0103
+
+build lab01_lab0103: CXX_EXECUTABLE_LINKER__lab01_lab0103_Debug CMakeFiles/lab01_lab0103.dir/lab01/lab0103.cpp.o CMakeFiles/lab01_lab0103.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/lab01_lab0103.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab01_lab0103
+  TARGET_PDB = lab01_lab0103.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab01_lab0104
+
+
+#############################################
+# Order-only phony target for lab01_lab0104
+
+build cmake_object_order_depends_target_lab01_lab0104: phony || CMakeFiles/lab01_lab0104.dir
+
+build CMakeFiles/lab01_lab0104.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0104_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0104
+  DEP_FILE = CMakeFiles/lab01_lab0104.dir/lab01/lab0104.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab01_lab0104.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0104.dir/lab01
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab01_lab0104
+
+
+#############################################
+# Link the executable lab01_lab0104
+
+build lab01_lab0104: CXX_EXECUTABLE_LINKER__lab01_lab0104_Debug CMakeFiles/lab01_lab0104.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/lab01_lab0104.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab01_lab0104
+  TARGET_PDB = lab01_lab0104.dbg
 
 
 #############################################
@@ -145,7 +227,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab01_lab0101 lab01_lab0102
+build all: phony lab01_lab0101 lab01_lab0102 lab01_lab0103 lab01_lab0104
 
 # =============================================================================
 # Built-in targets
@@ -154,14 +236,14 @@ build all: phony lab01_lab0101 lab01_lab0102
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindOpenMP.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindOpenMP.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
