@@ -41,157 +41,234 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target lab01_lab0101
+# Object build statements for EXECUTABLE target lab0101
 
 
 #############################################
-# Order-only phony target for lab01_lab0101
+# Order-only phony target for lab0101
 
-build cmake_object_order_depends_target_lab01_lab0101: phony || CMakeFiles/lab01_lab0101.dir
+build cmake_object_order_depends_target_lab0101: phony || CMakeFiles/lab0101.dir
 
-build CMakeFiles/lab01_lab0101.dir/lab01/lab0101.cpp.o: CXX_COMPILER__lab01_lab0101_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0101.cpp || cmake_object_order_depends_target_lab01_lab0101
-  DEP_FILE = CMakeFiles/lab01_lab0101.dir/lab01/lab0101.cpp.o.d
+build CMakeFiles/lab0101.dir/lab01/lab0101.cpp.o: CXX_COMPILER__lab0101_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0101.cpp || cmake_object_order_depends_target_lab0101
+  DEP_FILE = CMakeFiles/lab0101.dir/lab01/lab0101.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
   INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/lab01_lab0101.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0101.dir/lab01
-
-build CMakeFiles/lab01_lab0101.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0101_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0101
-  DEP_FILE = CMakeFiles/lab01_lab0101.dir/lab01/lab0104.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/lab01_lab0101.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0101.dir/lab01
+  OBJECT_DIR = CMakeFiles/lab0101.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0101.dir/lab01
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab01_lab0101
+# Link build statements for EXECUTABLE target lab0101
 
 
 #############################################
-# Link the executable lab01_lab0101
+# Link the executable lab0101
 
-build lab01_lab0101: CXX_EXECUTABLE_LINKER__lab01_lab0101_Debug CMakeFiles/lab01_lab0101.dir/lab01/lab0101.cpp.o CMakeFiles/lab01_lab0101.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+build lab0101: CXX_EXECUTABLE_LINKER__lab0101_Debug CMakeFiles/lab0101.dir/lab01/lab0101.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
   LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
-  OBJECT_DIR = CMakeFiles/lab01_lab0101.dir
+  OBJECT_DIR = CMakeFiles/lab0101.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = lab01_lab0101
-  TARGET_PDB = lab01_lab0101.dbg
+  TARGET_FILE = lab0101
+  TARGET_PDB = lab0101.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lab01_lab0102
+# Object build statements for EXECUTABLE target lab0102
 
 
 #############################################
-# Order-only phony target for lab01_lab0102
+# Order-only phony target for lab0102
 
-build cmake_object_order_depends_target_lab01_lab0102: phony || CMakeFiles/lab01_lab0102.dir
+build cmake_object_order_depends_target_lab0102: phony || CMakeFiles/lab0102.dir
 
-build CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o: CXX_COMPILER__lab01_lab0102_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0102.cpp || cmake_object_order_depends_target_lab01_lab0102
-  DEP_FILE = CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o.d
+build CMakeFiles/lab0102.dir/lab01/lab0102.cpp.o: CXX_COMPILER__lab0102_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0102.cpp || cmake_object_order_depends_target_lab0102
+  DEP_FILE = CMakeFiles/lab0102.dir/lab01/lab0102.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
   INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/lab01_lab0102.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0102.dir/lab01
-
-build CMakeFiles/lab01_lab0102.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0102_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0102
-  DEP_FILE = CMakeFiles/lab01_lab0102.dir/lab01/lab0104.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/lab01_lab0102.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0102.dir/lab01
+  OBJECT_DIR = CMakeFiles/lab0102.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0102.dir/lab01
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab01_lab0102
+# Link build statements for EXECUTABLE target lab0102
 
 
 #############################################
-# Link the executable lab01_lab0102
+# Link the executable lab0102
 
-build lab01_lab0102: CXX_EXECUTABLE_LINKER__lab01_lab0102_Debug CMakeFiles/lab01_lab0102.dir/lab01/lab0102.cpp.o CMakeFiles/lab01_lab0102.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+build lab0102: CXX_EXECUTABLE_LINKER__lab0102_Debug CMakeFiles/lab0102.dir/lab01/lab0102.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
   LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
-  OBJECT_DIR = CMakeFiles/lab01_lab0102.dir
+  OBJECT_DIR = CMakeFiles/lab0102.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = lab01_lab0102
-  TARGET_PDB = lab01_lab0102.dbg
+  TARGET_FILE = lab0102
+  TARGET_PDB = lab0102.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lab01_lab0103
+# Object build statements for EXECUTABLE target lab0103
 
 
 #############################################
-# Order-only phony target for lab01_lab0103
+# Order-only phony target for lab0103
 
-build cmake_object_order_depends_target_lab01_lab0103: phony || CMakeFiles/lab01_lab0103.dir
+build cmake_object_order_depends_target_lab0103: phony || CMakeFiles/lab0103.dir
 
-build CMakeFiles/lab01_lab0103.dir/lab01/lab0103.cpp.o: CXX_COMPILER__lab01_lab0103_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0103.cpp || cmake_object_order_depends_target_lab01_lab0103
-  DEP_FILE = CMakeFiles/lab01_lab0103.dir/lab01/lab0103.cpp.o.d
+build CMakeFiles/lab0103.dir/lab01/lab0103.cpp.o: CXX_COMPILER__lab0103_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0103.cpp || cmake_object_order_depends_target_lab0103
+  DEP_FILE = CMakeFiles/lab0103.dir/lab01/lab0103.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
   INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/lab01_lab0103.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0103.dir/lab01
-
-build CMakeFiles/lab01_lab0103.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0103_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0103
-  DEP_FILE = CMakeFiles/lab01_lab0103.dir/lab01/lab0104.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/lab01_lab0103.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0103.dir/lab01
+  OBJECT_DIR = CMakeFiles/lab0103.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0103.dir/lab01
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab01_lab0103
+# Link build statements for EXECUTABLE target lab0103
 
 
 #############################################
-# Link the executable lab01_lab0103
+# Link the executable lab0103
 
-build lab01_lab0103: CXX_EXECUTABLE_LINKER__lab01_lab0103_Debug CMakeFiles/lab01_lab0103.dir/lab01/lab0103.cpp.o CMakeFiles/lab01_lab0103.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+build lab0103: CXX_EXECUTABLE_LINKER__lab0103_Debug CMakeFiles/lab0103.dir/lab01/lab0103.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
   LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
-  OBJECT_DIR = CMakeFiles/lab01_lab0103.dir
+  OBJECT_DIR = CMakeFiles/lab0103.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = lab01_lab0103
-  TARGET_PDB = lab01_lab0103.dbg
+  TARGET_FILE = lab0103
+  TARGET_PDB = lab0103.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lab01_lab0104
+# Object build statements for EXECUTABLE target lab0104
 
 
 #############################################
-# Order-only phony target for lab01_lab0104
+# Order-only phony target for lab0104
 
-build cmake_object_order_depends_target_lab01_lab0104: phony || CMakeFiles/lab01_lab0104.dir
+build cmake_object_order_depends_target_lab0104: phony || CMakeFiles/lab0104.dir
 
-build CMakeFiles/lab01_lab0104.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab01_lab0104_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab01_lab0104
-  DEP_FILE = CMakeFiles/lab01_lab0104.dir/lab01/lab0104.cpp.o.d
+build CMakeFiles/lab0104.dir/lab01/lab0104.cpp.o: CXX_COMPILER__lab0104_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab01/lab0104.cpp || cmake_object_order_depends_target_lab0104
+  DEP_FILE = CMakeFiles/lab0104.dir/lab01/lab0104.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
   INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/lab01_lab0104.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab01_lab0104.dir/lab01
+  OBJECT_DIR = CMakeFiles/lab0104.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0104.dir/lab01
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab01_lab0104
+# Link build statements for EXECUTABLE target lab0104
 
 
 #############################################
-# Link the executable lab01_lab0104
+# Link the executable lab0104
 
-build lab01_lab0104: CXX_EXECUTABLE_LINKER__lab01_lab0104_Debug CMakeFiles/lab01_lab0104.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+build lab0104: CXX_EXECUTABLE_LINKER__lab0104_Debug CMakeFiles/lab0104.dir/lab01/lab0104.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
   LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
-  OBJECT_DIR = CMakeFiles/lab01_lab0104.dir
+  OBJECT_DIR = CMakeFiles/lab0104.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = lab01_lab0104
-  TARGET_PDB = lab01_lab0104.dbg
+  TARGET_FILE = lab0104
+  TARGET_PDB = lab0104.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab0201
+
+
+#############################################
+# Order-only phony target for lab0201
+
+build cmake_object_order_depends_target_lab0201: phony || CMakeFiles/lab0201.dir
+
+build CMakeFiles/lab0201.dir/lab02/lab0201.cpp.o: CXX_COMPILER__lab0201_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab02/lab0201.cpp || cmake_object_order_depends_target_lab0201
+  DEP_FILE = CMakeFiles/lab0201.dir/lab02/lab0201.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab0201.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0201.dir/lab02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab0201
+
+
+#############################################
+# Link the executable lab0201
+
+build lab0201: CXX_EXECUTABLE_LINKER__lab0201_Debug CMakeFiles/lab0201.dir/lab02/lab0201.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/lab0201.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab0201
+  TARGET_PDB = lab0201.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab0202
+
+
+#############################################
+# Order-only phony target for lab0202
+
+build cmake_object_order_depends_target_lab0202: phony || CMakeFiles/lab0202.dir
+
+build CMakeFiles/lab0202.dir/lab02/lab0202.cpp.o: CXX_COMPILER__lab0202_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab02/lab0202.cpp || cmake_object_order_depends_target_lab0202
+  DEP_FILE = CMakeFiles/lab0202.dir/lab02/lab0202.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab0202.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0202.dir/lab02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab0202
+
+
+#############################################
+# Link the executable lab0202
+
+build lab0202: CXX_EXECUTABLE_LINKER__lab0202_Debug CMakeFiles/lab0202.dir/lab02/lab0202.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/lab0202.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab0202
+  TARGET_PDB = lab0202.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab0203
+
+
+#############################################
+# Order-only phony target for lab0203
+
+build cmake_object_order_depends_target_lab0203: phony || CMakeFiles/lab0203.dir
+
+build CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o: CXX_COMPILER__lab0203_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab02/lab0203.cpp || cmake_object_order_depends_target_lab0203
+  DEP_FILE = CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab0203.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0203.dir/lab02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab0203
+
+
+#############################################
+# Link the executable lab0203
+
+build lab0203: CXX_EXECUTABLE_LINKER__lab0203_Debug CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/lab0203.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab0203
+  TARGET_PDB = lab0203.dbg
 
 
 #############################################
@@ -227,7 +304,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab01_lab0101 lab01_lab0102 lab01_lab0103 lab01_lab0104
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203
 
 # =============================================================================
 # Built-in targets

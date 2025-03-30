@@ -48,33 +48,27 @@ else()
     message(WARNING "OpenMP not found. Some features may be disabled.")
 endif()
 
-# 自动查找所有lab目录并添加
-file(GLOB LAB_DIRS RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "lab*")
+# 手动添加每个可执行文件
 
-foreach(LAB_DIR ${LAB_DIRS})
-    if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${LAB_DIR})
-        message(STATUS "Found lab directory: ${LAB_DIR}")
+# Lab01 可执行文件
+add_executable(lab0101 lab01/lab0101.cpp)
+add_executable(lab0102 lab01/lab0102.cpp)
+add_executable(lab0103 lab01/lab0103.cpp)
+add_executable(lab0104 lab01/lab0104.cpp)
 
-        # 查找该lab目录中的所有CPP文件
-        file(GLOB LAB_SOURCES "${LAB_DIR}/*.cpp")
+# Lab02 可执行文件
+add_executable(lab0201 lab02/lab0201.cpp)
+add_executable(lab0202 lab02/lab0202.cpp)
 
-        # 为每个CPP文件创建可执行文件
-        foreach(SOURCE_FILE ${LAB_SOURCES})
-            get_filename_component(FILE_NAME ${SOURCE_FILE} NAME_WE)
-            set(TARGET_NAME "${LAB_DIR}_${FILE_NAME}")
-
-            message(STATUS "Adding executable: ${TARGET_NAME} from ${SOURCE_FILE}")
-            # 只添加一个源文件而不是全部
-            add_executable(${TARGET_NAME} ${SOURCE_FILE}
-                    lab01/lab0104.cpp)
-
-            # 为每个目标链接 OpenMP (如果找到)
-            if(OpenMP_CXX_FOUND)
-                target_link_libraries(${TARGET_NAME} PRIVATE OpenMP::OpenMP_CXX)
-            endif()
-        endforeach()
-    endif()
-endforeach()
+# 为所有目标链接 OpenMP (如果找到)
+if(OpenMP_CXX_FOUND)
+    target_link_libraries(lab0101 PRIVATE OpenMP::OpenMP_CXX)
+    target_link_libraries(lab0102 PRIVATE OpenMP::OpenMP_CXX)
+    target_link_libraries(lab0103 PRIVATE OpenMP::OpenMP_CXX)
+    target_link_libraries(lab0104 PRIVATE OpenMP::OpenMP_CXX)
+    target_link_libraries(lab0201 PRIVATE OpenMP::OpenMP_CXX)
+    target_link_libraries(lab0202 PRIVATE OpenMP::OpenMP_CXX)
+endif()
 
 message(STATUS "C++ compiler: ${CMAKE_CXX_COMPILER}")
 message(STATUS "MacOS SDK path: ${MACOS_SDK_PATH}")
@@ -82,3 +76,4 @@ if(OpenMP_CXX_FOUND)
     message(STATUS "OpenMP libraries: ${OpenMP_CXX_LIBRARIES}")
     message(STATUS "OpenMP flags: ${OpenMP_CXX_FLAGS}")
 endif()
+add_executable(lab0203 lab02/lab0203.cpp)
