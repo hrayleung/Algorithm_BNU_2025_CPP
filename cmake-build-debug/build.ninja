@@ -270,6 +270,198 @@ build lab0203: CXX_EXECUTABLE_LINKER__lab0203_Debug CMakeFiles/lab0203.dir/lab02
   TARGET_FILE = lab0203
   TARGET_PDB = lab0203.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hanoi_tower
+
+
+#############################################
+# Order-only phony target for hanoi_tower
+
+build cmake_object_order_depends_target_hanoi_tower: phony || CMakeFiles/hanoi_tower.dir
+
+build CMakeFiles/hanoi_tower.dir/addition_note_on_Divide_and_Conquer/hanoi_tower.cpp.o: CXX_COMPILER__hanoi_tower_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/addition_note_on_Divide_and_Conquer/hanoi_tower.cpp || cmake_object_order_depends_target_hanoi_tower
+  DEP_FILE = CMakeFiles/hanoi_tower.dir/addition_note_on_Divide_and_Conquer/hanoi_tower.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/hanoi_tower.dir
+  OBJECT_FILE_DIR = CMakeFiles/hanoi_tower.dir/addition_note_on_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hanoi_tower
+
+
+#############################################
+# Link the executable hanoi_tower
+
+build hanoi_tower: CXX_EXECUTABLE_LINKER__hanoi_tower_Debug CMakeFiles/hanoi_tower.dir/addition_note_on_Divide_and_Conquer/hanoi_tower.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/hanoi_tower.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hanoi_tower
+  TARGET_PDB = hanoi_tower.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4hanoiTower
+
+
+#############################################
+# Order-only phony target for 4hanoiTower
+
+build cmake_object_order_depends_target_4hanoiTower: phony || CMakeFiles/4hanoiTower.dir
+
+build CMakeFiles/4hanoiTower.dir/addition_note_on_Divide_and_Conquer/4hanoiTower.cpp.o: CXX_COMPILER__4hanoiTower_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/addition_note_on_Divide_and_Conquer/4hanoiTower.cpp || cmake_object_order_depends_target_4hanoiTower
+  DEP_FILE = CMakeFiles/4hanoiTower.dir/addition_note_on_Divide_and_Conquer/4hanoiTower.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/4hanoiTower.dir
+  OBJECT_FILE_DIR = CMakeFiles/4hanoiTower.dir/addition_note_on_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4hanoiTower
+
+
+#############################################
+# Link the executable 4hanoiTower
+
+build 4hanoiTower: CXX_EXECUTABLE_LINKER__4hanoiTower_Debug CMakeFiles/4hanoiTower.dir/addition_note_on_Divide_and_Conquer/4hanoiTower.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/4hanoiTower.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4hanoiTower
+  TARGET_PDB = 4hanoiTower.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode108
+
+
+#############################################
+# Order-only phony target for leetcode108
+
+build cmake_object_order_depends_target_leetcode108: phony || CMakeFiles/leetcode108.dir
+
+build CMakeFiles/leetcode108.dir/addition_note_on_Divide_and_Conquer/leetcode108.cpp.o: CXX_COMPILER__leetcode108_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/addition_note_on_Divide_and_Conquer/leetcode108.cpp || cmake_object_order_depends_target_leetcode108
+  DEP_FILE = CMakeFiles/leetcode108.dir/addition_note_on_Divide_and_Conquer/leetcode108.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode108.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode108.dir/addition_note_on_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode108
+
+
+#############################################
+# Link the executable leetcode108
+
+build leetcode108: CXX_EXECUTABLE_LINKER__leetcode108_Debug CMakeFiles/leetcode108.dir/addition_note_on_Divide_and_Conquer/leetcode108.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/leetcode108.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode108
+  TARGET_PDB = leetcode108.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode109
+
+
+#############################################
+# Order-only phony target for leetcode109
+
+build cmake_object_order_depends_target_leetcode109: phony || CMakeFiles/leetcode109.dir
+
+build CMakeFiles/leetcode109.dir/addition_note_on_Divide_and_Conquer/leetcode109.cpp.o: CXX_COMPILER__leetcode109_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/addition_note_on_Divide_and_Conquer/leetcode109.cpp || cmake_object_order_depends_target_leetcode109
+  DEP_FILE = CMakeFiles/leetcode109.dir/addition_note_on_Divide_and_Conquer/leetcode109.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode109.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode109.dir/addition_note_on_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode109
+
+
+#############################################
+# Link the executable leetcode109
+
+build leetcode109: CXX_EXECUTABLE_LINKER__leetcode109_Debug CMakeFiles/leetcode109.dir/addition_note_on_Divide_and_Conquer/leetcode109.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/leetcode109.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode109
+  TARGET_PDB = leetcode109.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target luoguP1908
+
+
+#############################################
+# Order-only phony target for luoguP1908
+
+build cmake_object_order_depends_target_luoguP1908: phony || CMakeFiles/luoguP1908.dir
+
+build CMakeFiles/luoguP1908.dir/addition_note_on_Divide_and_Conquer/luoguP1908.cpp.o: CXX_COMPILER__luoguP1908_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/addition_note_on_Divide_and_Conquer/luoguP1908.cpp || cmake_object_order_depends_target_luoguP1908
+  DEP_FILE = CMakeFiles/luoguP1908.dir/addition_note_on_Divide_and_Conquer/luoguP1908.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/luoguP1908.dir
+  OBJECT_FILE_DIR = CMakeFiles/luoguP1908.dir/addition_note_on_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target luoguP1908
+
+
+#############################################
+# Link the executable luoguP1908
+
+build luoguP1908: CXX_EXECUTABLE_LINKER__luoguP1908_Debug CMakeFiles/luoguP1908.dir/addition_note_on_Divide_and_Conquer/luoguP1908.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/luoguP1908.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = luoguP1908
+  TARGET_PDB = luoguP1908.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode148
+
+
+#############################################
+# Order-only phony target for leetcode148
+
+build cmake_object_order_depends_target_leetcode148: phony || CMakeFiles/leetcode148.dir
+
+build CMakeFiles/leetcode148.dir/addition_note_on_Divide_and_Conquer/leetcode148.cpp.o: CXX_COMPILER__leetcode148_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/addition_note_on_Divide_and_Conquer/leetcode148.cpp || cmake_object_order_depends_target_leetcode148
+  DEP_FILE = CMakeFiles/leetcode148.dir/addition_note_on_Divide_and_Conquer/leetcode148.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode148.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode148.dir/addition_note_on_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode148
+
+
+#############################################
+# Link the executable leetcode148
+
+build leetcode148: CXX_EXECUTABLE_LINKER__leetcode148_Debug CMakeFiles/leetcode148.dir/addition_note_on_Divide_and_Conquer/leetcode148.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/leetcode148.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode148
+  TARGET_PDB = leetcode148.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -304,7 +496,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148
 
 # =============================================================================
 # Built-in targets
