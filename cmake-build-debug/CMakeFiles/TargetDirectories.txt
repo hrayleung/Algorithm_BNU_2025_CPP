@@ -11,5 +11,7 @@
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/leetcode109.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/luoguP1908.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/leetcode148.dir
+/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/lab0301.dir
+/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/lab0302.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
