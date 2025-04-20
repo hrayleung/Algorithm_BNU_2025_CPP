@@ -558,6 +558,38 @@ build LIS: CXX_EXECUTABLE_LINKER__LIS_Debug CMakeFiles/LIS.dir/notes_DP/LIS.cpp.
   TARGET_FILE = LIS
   TARGET_PDB = LIS.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target LIS_optimized
+
+
+#############################################
+# Order-only phony target for LIS_optimized
+
+build cmake_object_order_depends_target_LIS_optimized: phony || CMakeFiles/LIS_optimized.dir
+
+build CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o: CXX_COMPILER__LIS_optimized_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/LIS_optimized.cpp || cmake_object_order_depends_target_LIS_optimized
+  DEP_FILE = CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/LIS_optimized.dir
+  OBJECT_FILE_DIR = CMakeFiles/LIS_optimized.dir/notes_DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LIS_optimized
+
+
+#############################################
+# Link the executable LIS_optimized
+
+build LIS_optimized: CXX_EXECUTABLE_LINKER__LIS_optimized_Debug CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/LIS_optimized.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LIS_optimized
+  TARGET_PDB = LIS_optimized.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -592,7 +624,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized
 
 # =============================================================================
 # Built-in targets

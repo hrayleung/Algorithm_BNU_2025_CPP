@@ -87,3 +87,4 @@ add_executable(lab0301
         lab03/lab0301.cpp)
 add_executable(lab0302 lab03/lab0302.cpp)
 add_executable(LIS notes_DP/LIS.cpp)
+add_executable(LIS_optimized notes_DP/LIS_optimized.cpp)
