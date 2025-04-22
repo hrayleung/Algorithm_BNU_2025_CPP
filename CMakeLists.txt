@@ -88,3 +88,5 @@ add_executable(lab0301
 add_executable(lab0302 lab03/lab0302.cpp)
 add_executable(LIS notes_DP/LIS.cpp)
 add_executable(LIS_optimized notes_DP/LIS_optimized.cpp)
+add_executable(pretty_print notes_DP/word_warp.cpp)
+add_executable(lab0303 lab03/lab0303.cpp)

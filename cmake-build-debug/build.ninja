@@ -590,6 +590,70 @@ build LIS_optimized: CXX_EXECUTABLE_LINKER__LIS_optimized_Debug CMakeFiles/LIS_o
   TARGET_FILE = LIS_optimized
   TARGET_PDB = LIS_optimized.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pretty_print
+
+
+#############################################
+# Order-only phony target for pretty_print
+
+build cmake_object_order_depends_target_pretty_print: phony || CMakeFiles/pretty_print.dir
+
+build CMakeFiles/pretty_print.dir/notes_DP/word_warp.cpp.o: CXX_COMPILER__pretty_print_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/word_warp.cpp || cmake_object_order_depends_target_pretty_print
+  DEP_FILE = CMakeFiles/pretty_print.dir/notes_DP/word_warp.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/pretty_print.dir
+  OBJECT_FILE_DIR = CMakeFiles/pretty_print.dir/notes_DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pretty_print
+
+
+#############################################
+# Link the executable pretty_print
+
+build pretty_print: CXX_EXECUTABLE_LINKER__pretty_print_Debug CMakeFiles/pretty_print.dir/notes_DP/word_warp.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/pretty_print.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pretty_print
+  TARGET_PDB = pretty_print.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab0303
+
+
+#############################################
+# Order-only phony target for lab0303
+
+build cmake_object_order_depends_target_lab0303: phony || CMakeFiles/lab0303.dir
+
+build CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o: CXX_COMPILER__lab0303_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab03/lab0303.cpp || cmake_object_order_depends_target_lab0303
+  DEP_FILE = CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab0303.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0303.dir/lab03
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab0303
+
+
+#############################################
+# Link the executable lab0303
+
+build lab0303: CXX_EXECUTABLE_LINKER__lab0303_Debug CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/lab0303.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab0303
+  TARGET_PDB = lab0303.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -624,7 +688,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303
 
 # =============================================================================
 # Built-in targets
