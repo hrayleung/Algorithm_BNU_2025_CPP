@@ -17,5 +17,6 @@
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/LIS_optimized.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/pretty_print.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/lab0303.dir
+/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/lab0304.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
