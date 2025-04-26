@@ -686,6 +686,38 @@ build lab0304: CXX_EXECUTABLE_LINKER__lab0304_Debug CMakeFiles/lab0304.dir/lab03
   TARGET_FILE = lab0304
   TARGET_PDB = lab0304.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode05
+
+
+#############################################
+# Order-only phony target for leetcode05
+
+build cmake_object_order_depends_target_leetcode05: phony || CMakeFiles/leetcode05.dir
+
+build CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o: CXX_COMPILER__leetcode05_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/leetcode05.cpp || cmake_object_order_depends_target_leetcode05
+  DEP_FILE = CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode05.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode05.dir/notes_DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode05
+
+
+#############################################
+# Link the executable leetcode05
+
+build leetcode05: CXX_EXECUTABLE_LINKER__leetcode05_Debug CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/leetcode05.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode05
+  TARGET_PDB = leetcode05.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -720,7 +752,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303 lab0304
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303 lab0304 leetcode05
 
 # =============================================================================
 # Built-in targets
