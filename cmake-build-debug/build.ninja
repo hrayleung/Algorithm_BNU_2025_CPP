@@ -718,6 +718,38 @@ build leetcode05: CXX_EXECUTABLE_LINKER__leetcode05_Debug CMakeFiles/leetcode05.
   TARGET_FILE = leetcode05
   TARGET_PDB = leetcode05.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab0401
+
+
+#############################################
+# Order-only phony target for lab0401
+
+build cmake_object_order_depends_target_lab0401: phony || CMakeFiles/lab0401.dir
+
+build CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o: CXX_COMPILER__lab0401_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab04/lab0401.cpp || cmake_object_order_depends_target_lab0401
+  DEP_FILE = CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/lab0401.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab0401.dir/lab04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab0401
+
+
+#############################################
+# Link the executable lab0401
+
+build lab0401: CXX_EXECUTABLE_LINKER__lab0401_Debug CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/lab0401.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab0401
+  TARGET_PDB = lab0401.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -752,7 +784,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303 lab0304 leetcode05
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303 lab0304 leetcode05 lab0401
 
 # =============================================================================
 # Built-in targets
