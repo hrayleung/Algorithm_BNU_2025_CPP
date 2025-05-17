@@ -1,0 +1,276 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Algorithm_BNU_2025_CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "4hanoiTower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4hanoiTower-Debug-e537cceb3745008c2817.json",
+					"name" : "4hanoiTower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LIS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LIS-Debug-ba2b53eb9e0dd0ce856d.json",
+					"name" : "LIS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LIS_optimized::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LIS_optimized-Debug-9a658873ef562ccd933d.json",
+					"name" : "LIS_optimized",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hanoi_tower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hanoi_tower-Debug-91276672ba619466a855.json",
+					"name" : "hanoi_tower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0101::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0101-Debug-fd6ab4a4dd298613127e.json",
+					"name" : "lab0101",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0102::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0102-Debug-1400adec862b54a22305.json",
+					"name" : "lab0102",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0103::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0103-Debug-2359748fa12995134900.json",
+					"name" : "lab0103",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0104::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0104-Debug-f216d7f33c7e510c7a67.json",
+					"name" : "lab0104",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0201::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0201-Debug-bf285c735a0d7821daea.json",
+					"name" : "lab0201",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0202::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0202-Debug-86e9b83dbed8c13445c0.json",
+					"name" : "lab0202",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0203::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0203-Debug-eb4afaec7d6e6f84aa7d.json",
+					"name" : "lab0203",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0301::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0301-Debug-6f31fdcb5ffd0391b713.json",
+					"name" : "lab0301",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0302::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0302-Debug-ea09b4cbe8807180361a.json",
+					"name" : "lab0302",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0303::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0303-Debug-7f2eb3576d69966cb63f.json",
+					"name" : "lab0303",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0304::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0304-Debug-7a80c59219df8a3dd66c.json",
+					"name" : "lab0304",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0401::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0401-Debug-3e9b9569d30549f44470.json",
+					"name" : "lab0401",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0402::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0402-Debug-965a24fba2ff74c4369f.json",
+					"name" : "lab0402",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab0403::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab0403-Debug-d5c416aa1c459d5ddc88.json",
+					"name" : "lab0403",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode05-Debug-c336e6f4b5c0e487ea95.json",
+					"name" : "leetcode05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode108::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode108-Debug-74632c679244c379f2dc.json",
+					"name" : "leetcode108",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode109::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode109-Debug-60430c280ef8c4a1e161.json",
+					"name" : "leetcode109",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode11-Debug-3ceac687ea8cbd83f51d.json",
+					"name" : "leetcode11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode148::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode148-Debug-5e989210273e4f58edae.json",
+					"name" : "leetcode148",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "luoguP1908::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-luoguP1908-Debug-df9cf0c370633d5be6f6.json",
+					"name" : "luoguP1908",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pretty_print::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pretty_print-Debug-8cbaae41b83b77d73c40.json",
+					"name" : "pretty_print",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug",
+		"source" : "/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
