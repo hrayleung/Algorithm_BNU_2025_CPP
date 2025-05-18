@@ -1,6 +1,6 @@
 # Algorithm_BNU_2025_CPP
 
-This repository contains C++ implementations of algorithm labs and related notes for the BNU 2025 Algorithm course. It includes solutions to lab assignments as well as code examples for key algorithmic paradigms.
+This repository contains C++ implementations of algorithm labs and related notes for the Beijing Normal University 2025 Algorithm course. It includes solutions to lab assignments as well as code examples for key algorithmic paradigms.
 
 ## Project Structure
 
