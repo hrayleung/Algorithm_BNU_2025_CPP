@@ -878,6 +878,70 @@ build leetcode45: CXX_EXECUTABLE_LINKER__leetcode45_Debug CMakeFiles/leetcode45.
   TARGET_FILE = leetcode45
   TARGET_PDB = leetcode45.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode122
+
+
+#############################################
+# Order-only phony target for leetcode122
+
+build cmake_object_order_depends_target_leetcode122: phony || CMakeFiles/leetcode122.dir
+
+build CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o: CXX_COMPILER__leetcode122_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode122.cpp || cmake_object_order_depends_target_leetcode122
+  DEP_FILE = CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode122.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode122.dir/notes_Greedy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode122
+
+
+#############################################
+# Link the executable leetcode122
+
+build leetcode122: CXX_EXECUTABLE_LINKER__leetcode122_Debug CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/leetcode122.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode122
+  TARGET_PDB = leetcode122.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode134
+
+
+#############################################
+# Order-only phony target for leetcode134
+
+build cmake_object_order_depends_target_leetcode134: phony || CMakeFiles/leetcode134.dir
+
+build CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o: CXX_COMPILER__leetcode134_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode134.cpp || cmake_object_order_depends_target_leetcode134
+  DEP_FILE = CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode134.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode134.dir/notes_Greedy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode134
+
+
+#############################################
+# Link the executable leetcode134
+
+build leetcode134: CXX_EXECUTABLE_LINKER__leetcode134_Debug CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  OBJECT_DIR = CMakeFiles/leetcode134.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode134
+  TARGET_PDB = leetcode134.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -912,7 +976,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303 lab0304 leetcode05 lab0401 lab0402 lab0403 leetcode11 leetcode45
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303 lab0304 leetcode05 lab0401 lab0402 lab0403 leetcode11 leetcode45 leetcode122 leetcode134
 
 # =============================================================================
 # Built-in targets
