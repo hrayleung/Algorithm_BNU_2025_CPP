@@ -48,27 +48,19 @@ else ()
     message(WARNING "OpenMP not found. Some features may be disabled.")
 endif ()
 
-# 手动添加每个可执行文件
+# 自动查找所有 lab 和 notes 目录下的 cpp 文件
+file(GLOB_RECURSE ALL_CPP
+    lab*/lab*.cpp
+    notes_*/**.cpp
+)
 
-# Lab01 可执行文件
-add_executable(lab0101 lab01/lab0101.cpp)
-add_executable(lab0102 lab01/lab0102.cpp)
-add_executable(lab0103 lab01/lab0103.cpp)
-add_executable(lab0104 lab01/lab0104.cpp)
-
-# Lab02 可执行文件
-add_executable(lab0201 lab02/lab0201.cpp)
-add_executable(lab0202 lab02/lab0202.cpp)
-
-# 为所有目标链接 OpenMP (如果找到)
-if (OpenMP_CXX_FOUND)
-    target_link_libraries(lab0101 PRIVATE OpenMP::OpenMP_CXX)
-    target_link_libraries(lab0102 PRIVATE OpenMP::OpenMP_CXX)
-    target_link_libraries(lab0103 PRIVATE OpenMP::OpenMP_CXX)
-    target_link_libraries(lab0104 PRIVATE OpenMP::OpenMP_CXX)
-    target_link_libraries(lab0201 PRIVATE OpenMP::OpenMP_CXX)
-    target_link_libraries(lab0202 PRIVATE OpenMP::OpenMP_CXX)
-endif ()
+foreach(src ${ALL_CPP})
+    get_filename_component(target ${src} NAME_WE)
+    add_executable(${target} ${src})
+    if(OpenMP_CXX_FOUND)
+        target_link_libraries(${target} PRIVATE OpenMP::OpenMP_CXX)
+    endif()
+endforeach()
 
 message(STATUS "C++ compiler: ${CMAKE_CXX_COMPILER}")
 message(STATUS "MacOS SDK path: ${MACOS_SDK_PATH}")
@@ -76,26 +68,3 @@ if (OpenMP_CXX_FOUND)
     message(STATUS "OpenMP libraries: ${OpenMP_CXX_LIBRARIES}")
     message(STATUS "OpenMP flags: ${OpenMP_CXX_FLAGS}")
 endif ()
-add_executable(lab0203 lab02/lab0203.cpp)
-add_executable(hanoi_tower notes_Divide_and_Conquer/hanoi_tower.cpp)
-add_executable(4hanoiTower notes_Divide_and_Conquer/4hanoiTower.cpp)
-add_executable(leetcode108 notes_Divide_and_Conquer/leetcode108.cpp)
-add_executable(leetcode109 notes_Divide_and_Conquer/leetcode109.cpp)
-add_executable(luoguP1908 notes_Divide_and_Conquer/luoguP1908.cpp)
-add_executable(leetcode148 notes_Divide_and_Conquer/leetcode148.cpp)
-add_executable(lab0301
-        lab03/lab0301.cpp)
-add_executable(lab0302 lab03/lab0302.cpp)
-add_executable(LIS notes_DP/LIS.cpp)
-add_executable(LIS_optimized notes_DP/LIS_optimized.cpp)
-add_executable(pretty_print notes_DP/word_warp.cpp)
-add_executable(lab0303 lab03/lab0303.cpp)
-add_executable(lab0304 lab03/lab0304.cpp)
-add_executable(leetcode05 notes_DP/leetcode05.cpp)
-add_executable(lab0401 lab04/lab0401.cpp)
-add_executable(lab0402 lab04/lab0402.cpp)
-add_executable(lab0403 lab04/lab0403.cpp)
-add_executable(leetcode11 notes_Greedy/leetcode11.cpp)
-add_executable(leetcode45 notes_Greedy/leetcode45.cpp)
-add_executable(leetcode122 notes_Greedy/leetcode122.cpp)
-add_executable(leetcode134 notes_Greedy/leetcode134.cpp)

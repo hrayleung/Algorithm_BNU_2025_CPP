@@ -1,18 +1,18 @@
 {
-    "version": "2.0.0",
-    "configurations": [
+  "version": "2.0.0",
+  "configurations": [
       {
-        "name": "C/C++: clang++ build and debug active file",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${fileDirname}/${fileBasenameNoExtension}",
-        "args": [],
-        "stopAtEntry": false,
-        "cwd": "${fileDirname}",
-        "environment": [],
-        "console": "integratedTerminal", 
-        "MIMode": "lldb",
-        "preLaunchTask": "C/C++: clang++ build active file"
+          "name": "CMake Debug",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${command:cmake.launchTargetPath}",
+          "args": [],
+          "stopAtEntry": false,
+          "cwd": "${workspaceFolder}",
+          "environment": [],
+          "externalConsole": false,
+          "MIMode": "lldb",
+          "preLaunchTask": "CMake Build"
       }
-    ]
-  }
+  ]
+}
