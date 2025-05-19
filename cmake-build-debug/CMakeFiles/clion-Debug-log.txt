@@ -15,6 +15,6 @@ Call Stack (most recent call first):
 -- MacOS SDK path: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 -- OpenMP libraries: /opt/homebrew/opt/libomp/lib/libomp.dylib
 -- OpenMP flags: -Xpreprocessor -fopenmp
--- Configuring done (0.2s)
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug

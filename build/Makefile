@@ -468,6 +468,19 @@ leetcode134/fast:
 .PHONY : leetcode134/fast
 
 #=============================================================================
+# Target rules for targets named leetcode135
+
+# Build rule for target.
+leetcode135: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode135
+.PHONY : leetcode135
+
+# fast build rule for target.
+leetcode135/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode135.dir/build.make CMakeFiles/leetcode135.dir/build
+.PHONY : leetcode135/fast
+
+#=============================================================================
 # Target rules for targets named leetcode45
 
 # Build rule for target.
@@ -1128,6 +1141,30 @@ notes_Greedy/leetcode134.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode134.dir/build.make CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.s
 .PHONY : notes_Greedy/leetcode134.cpp.s
 
+notes_Greedy/leetcode135.o: notes_Greedy/leetcode135.cpp.o
+.PHONY : notes_Greedy/leetcode135.o
+
+# target to build an object file
+notes_Greedy/leetcode135.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode135.dir/build.make CMakeFiles/leetcode135.dir/notes_Greedy/leetcode135.cpp.o
+.PHONY : notes_Greedy/leetcode135.cpp.o
+
+notes_Greedy/leetcode135.i: notes_Greedy/leetcode135.cpp.i
+.PHONY : notes_Greedy/leetcode135.i
+
+# target to preprocess a source file
+notes_Greedy/leetcode135.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode135.dir/build.make CMakeFiles/leetcode135.dir/notes_Greedy/leetcode135.cpp.i
+.PHONY : notes_Greedy/leetcode135.cpp.i
+
+notes_Greedy/leetcode135.s: notes_Greedy/leetcode135.cpp.s
+.PHONY : notes_Greedy/leetcode135.s
+
+# target to generate assembly for a file
+notes_Greedy/leetcode135.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode135.dir/build.make CMakeFiles/leetcode135.dir/notes_Greedy/leetcode135.cpp.s
+.PHONY : notes_Greedy/leetcode135.cpp.s
+
 notes_Greedy/leetcode45.o: notes_Greedy/leetcode45.cpp.o
 .PHONY : notes_Greedy/leetcode45.o
 
@@ -1184,6 +1221,7 @@ help:
 	@echo "... leetcode11"
 	@echo "... leetcode122"
 	@echo "... leetcode134"
+	@echo "... leetcode135"
 	@echo "... leetcode148"
 	@echo "... leetcode45"
 	@echo "... luoguP1908"
@@ -1269,6 +1307,9 @@ help:
 	@echo "... notes_Greedy/leetcode134.o"
 	@echo "... notes_Greedy/leetcode134.i"
 	@echo "... notes_Greedy/leetcode134.s"
+	@echo "... notes_Greedy/leetcode135.o"
+	@echo "... notes_Greedy/leetcode135.i"
+	@echo "... notes_Greedy/leetcode135.s"
 	@echo "... notes_Greedy/leetcode45.o"
 	@echo "... notes_Greedy/leetcode45.i"
 	@echo "... notes_Greedy/leetcode45.s"
