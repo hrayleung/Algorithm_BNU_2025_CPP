@@ -249,8 +249,8 @@ build cmake_object_order_depends_target_lab0203: phony || CMakeFiles/lab0203.dir
 
 build CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o: CXX_COMPILER__lab0203_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab02/lab0203.cpp || cmake_object_order_depends_target_lab0203
   DEP_FILE = CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0203.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0203.dir/lab02
 
@@ -262,205 +262,14 @@ build CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o: CXX_COMPILER__lab0203_unscanne
 #############################################
 # Link the executable lab0203
 
-build lab0203: CXX_EXECUTABLE_LINKER__lab0203_Debug CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o
+build lab0203: CXX_EXECUTABLE_LINKER__lab0203_Debug CMakeFiles/lab0203.dir/lab02/lab0203.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0203.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = lab0203
   TARGET_PDB = lab0203.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target hanoi_tower
-
-
-#############################################
-# Order-only phony target for hanoi_tower
-
-build cmake_object_order_depends_target_hanoi_tower: phony || CMakeFiles/hanoi_tower.dir
-
-build CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer/hanoi_tower.cpp.o: CXX_COMPILER__hanoi_tower_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/hanoi_tower.cpp || cmake_object_order_depends_target_hanoi_tower
-  DEP_FILE = CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer/hanoi_tower.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/hanoi_tower.dir
-  OBJECT_FILE_DIR = CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target hanoi_tower
-
-
-#############################################
-# Link the executable hanoi_tower
-
-build hanoi_tower: CXX_EXECUTABLE_LINKER__hanoi_tower_Debug CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer/hanoi_tower.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/hanoi_tower.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = hanoi_tower
-  TARGET_PDB = hanoi_tower.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 4hanoiTower
-
-
-#############################################
-# Order-only phony target for 4hanoiTower
-
-build cmake_object_order_depends_target_4hanoiTower: phony || CMakeFiles/4hanoiTower.dir
-
-build CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer/4hanoiTower.cpp.o: CXX_COMPILER__4hanoiTower_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/4hanoiTower.cpp || cmake_object_order_depends_target_4hanoiTower
-  DEP_FILE = CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer/4hanoiTower.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/4hanoiTower.dir
-  OBJECT_FILE_DIR = CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 4hanoiTower
-
-
-#############################################
-# Link the executable 4hanoiTower
-
-build 4hanoiTower: CXX_EXECUTABLE_LINKER__4hanoiTower_Debug CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer/4hanoiTower.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/4hanoiTower.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 4hanoiTower
-  TARGET_PDB = 4hanoiTower.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target leetcode108
-
-
-#############################################
-# Order-only phony target for leetcode108
-
-build cmake_object_order_depends_target_leetcode108: phony || CMakeFiles/leetcode108.dir
-
-build CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer/leetcode108.cpp.o: CXX_COMPILER__leetcode108_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/leetcode108.cpp || cmake_object_order_depends_target_leetcode108
-  DEP_FILE = CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer/leetcode108.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/leetcode108.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target leetcode108
-
-
-#############################################
-# Link the executable leetcode108
-
-build leetcode108: CXX_EXECUTABLE_LINKER__leetcode108_Debug CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer/leetcode108.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/leetcode108.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = leetcode108
-  TARGET_PDB = leetcode108.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target leetcode109
-
-
-#############################################
-# Order-only phony target for leetcode109
-
-build cmake_object_order_depends_target_leetcode109: phony || CMakeFiles/leetcode109.dir
-
-build CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer/leetcode109.cpp.o: CXX_COMPILER__leetcode109_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/leetcode109.cpp || cmake_object_order_depends_target_leetcode109
-  DEP_FILE = CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer/leetcode109.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/leetcode109.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target leetcode109
-
-
-#############################################
-# Link the executable leetcode109
-
-build leetcode109: CXX_EXECUTABLE_LINKER__leetcode109_Debug CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer/leetcode109.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/leetcode109.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = leetcode109
-  TARGET_PDB = leetcode109.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target luoguP1908
-
-
-#############################################
-# Order-only phony target for luoguP1908
-
-build cmake_object_order_depends_target_luoguP1908: phony || CMakeFiles/luoguP1908.dir
-
-build CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.o: CXX_COMPILER__luoguP1908_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/luoguP1908.cpp || cmake_object_order_depends_target_luoguP1908
-  DEP_FILE = CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/luoguP1908.dir
-  OBJECT_FILE_DIR = CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target luoguP1908
-
-
-#############################################
-# Link the executable luoguP1908
-
-build luoguP1908: CXX_EXECUTABLE_LINKER__luoguP1908_Debug CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/luoguP1908.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = luoguP1908
-  TARGET_PDB = luoguP1908.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target leetcode148
-
-
-#############################################
-# Order-only phony target for leetcode148
-
-build cmake_object_order_depends_target_leetcode148: phony || CMakeFiles/leetcode148.dir
-
-build CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer/leetcode148.cpp.o: CXX_COMPILER__leetcode148_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/leetcode148.cpp || cmake_object_order_depends_target_leetcode148
-  DEP_FILE = CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer/leetcode148.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/leetcode148.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target leetcode148
-
-
-#############################################
-# Link the executable leetcode148
-
-build leetcode148: CXX_EXECUTABLE_LINKER__leetcode148_Debug CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer/leetcode148.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/leetcode148.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = leetcode148
-  TARGET_PDB = leetcode148.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lab0301
@@ -473,8 +282,8 @@ build cmake_object_order_depends_target_lab0301: phony || CMakeFiles/lab0301.dir
 
 build CMakeFiles/lab0301.dir/lab03/lab0301.cpp.o: CXX_COMPILER__lab0301_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab03/lab0301.cpp || cmake_object_order_depends_target_lab0301
   DEP_FILE = CMakeFiles/lab0301.dir/lab03/lab0301.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0301.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0301.dir/lab03
 
@@ -486,8 +295,9 @@ build CMakeFiles/lab0301.dir/lab03/lab0301.cpp.o: CXX_COMPILER__lab0301_unscanne
 #############################################
 # Link the executable lab0301
 
-build lab0301: CXX_EXECUTABLE_LINKER__lab0301_Debug CMakeFiles/lab0301.dir/lab03/lab0301.cpp.o
+build lab0301: CXX_EXECUTABLE_LINKER__lab0301_Debug CMakeFiles/lab0301.dir/lab03/lab0301.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0301.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -505,8 +315,8 @@ build cmake_object_order_depends_target_lab0302: phony || CMakeFiles/lab0302.dir
 
 build CMakeFiles/lab0302.dir/lab03/lab0302.cpp.o: CXX_COMPILER__lab0302_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab03/lab0302.cpp || cmake_object_order_depends_target_lab0302
   DEP_FILE = CMakeFiles/lab0302.dir/lab03/lab0302.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0302.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0302.dir/lab03
 
@@ -518,109 +328,14 @@ build CMakeFiles/lab0302.dir/lab03/lab0302.cpp.o: CXX_COMPILER__lab0302_unscanne
 #############################################
 # Link the executable lab0302
 
-build lab0302: CXX_EXECUTABLE_LINKER__lab0302_Debug CMakeFiles/lab0302.dir/lab03/lab0302.cpp.o
+build lab0302: CXX_EXECUTABLE_LINKER__lab0302_Debug CMakeFiles/lab0302.dir/lab03/lab0302.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0302.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = lab0302
   TARGET_PDB = lab0302.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target LIS
-
-
-#############################################
-# Order-only phony target for LIS
-
-build cmake_object_order_depends_target_LIS: phony || CMakeFiles/LIS.dir
-
-build CMakeFiles/LIS.dir/notes_DP/LIS.cpp.o: CXX_COMPILER__LIS_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/LIS.cpp || cmake_object_order_depends_target_LIS
-  DEP_FILE = CMakeFiles/LIS.dir/notes_DP/LIS.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/LIS.dir
-  OBJECT_FILE_DIR = CMakeFiles/LIS.dir/notes_DP
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target LIS
-
-
-#############################################
-# Link the executable LIS
-
-build LIS: CXX_EXECUTABLE_LINKER__LIS_Debug CMakeFiles/LIS.dir/notes_DP/LIS.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/LIS.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = LIS
-  TARGET_PDB = LIS.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target LIS_optimized
-
-
-#############################################
-# Order-only phony target for LIS_optimized
-
-build cmake_object_order_depends_target_LIS_optimized: phony || CMakeFiles/LIS_optimized.dir
-
-build CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o: CXX_COMPILER__LIS_optimized_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/LIS_optimized.cpp || cmake_object_order_depends_target_LIS_optimized
-  DEP_FILE = CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/LIS_optimized.dir
-  OBJECT_FILE_DIR = CMakeFiles/LIS_optimized.dir/notes_DP
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target LIS_optimized
-
-
-#############################################
-# Link the executable LIS_optimized
-
-build LIS_optimized: CXX_EXECUTABLE_LINKER__LIS_optimized_Debug CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/LIS_optimized.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = LIS_optimized
-  TARGET_PDB = LIS_optimized.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target pretty_print
-
-
-#############################################
-# Order-only phony target for pretty_print
-
-build cmake_object_order_depends_target_pretty_print: phony || CMakeFiles/pretty_print.dir
-
-build CMakeFiles/pretty_print.dir/notes_DP/word_warp.cpp.o: CXX_COMPILER__pretty_print_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/word_warp.cpp || cmake_object_order_depends_target_pretty_print
-  DEP_FILE = CMakeFiles/pretty_print.dir/notes_DP/word_warp.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/pretty_print.dir
-  OBJECT_FILE_DIR = CMakeFiles/pretty_print.dir/notes_DP
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target pretty_print
-
-
-#############################################
-# Link the executable pretty_print
-
-build pretty_print: CXX_EXECUTABLE_LINKER__pretty_print_Debug CMakeFiles/pretty_print.dir/notes_DP/word_warp.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/pretty_print.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = pretty_print
-  TARGET_PDB = pretty_print.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lab0303
@@ -633,8 +348,8 @@ build cmake_object_order_depends_target_lab0303: phony || CMakeFiles/lab0303.dir
 
 build CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o: CXX_COMPILER__lab0303_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab03/lab0303.cpp || cmake_object_order_depends_target_lab0303
   DEP_FILE = CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0303.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0303.dir/lab03
 
@@ -646,8 +361,9 @@ build CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o: CXX_COMPILER__lab0303_unscanne
 #############################################
 # Link the executable lab0303
 
-build lab0303: CXX_EXECUTABLE_LINKER__lab0303_Debug CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o
+build lab0303: CXX_EXECUTABLE_LINKER__lab0303_Debug CMakeFiles/lab0303.dir/lab03/lab0303.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0303.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -665,8 +381,8 @@ build cmake_object_order_depends_target_lab0304: phony || CMakeFiles/lab0304.dir
 
 build CMakeFiles/lab0304.dir/lab03/lab0304.cpp.o: CXX_COMPILER__lab0304_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab03/lab0304.cpp || cmake_object_order_depends_target_lab0304
   DEP_FILE = CMakeFiles/lab0304.dir/lab03/lab0304.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0304.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0304.dir/lab03
 
@@ -678,45 +394,14 @@ build CMakeFiles/lab0304.dir/lab03/lab0304.cpp.o: CXX_COMPILER__lab0304_unscanne
 #############################################
 # Link the executable lab0304
 
-build lab0304: CXX_EXECUTABLE_LINKER__lab0304_Debug CMakeFiles/lab0304.dir/lab03/lab0304.cpp.o
+build lab0304: CXX_EXECUTABLE_LINKER__lab0304_Debug CMakeFiles/lab0304.dir/lab03/lab0304.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0304.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = lab0304
   TARGET_PDB = lab0304.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target leetcode05
-
-
-#############################################
-# Order-only phony target for leetcode05
-
-build cmake_object_order_depends_target_leetcode05: phony || CMakeFiles/leetcode05.dir
-
-build CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o: CXX_COMPILER__leetcode05_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/leetcode05.cpp || cmake_object_order_depends_target_leetcode05
-  DEP_FILE = CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/leetcode05.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode05.dir/notes_DP
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target leetcode05
-
-
-#############################################
-# Link the executable leetcode05
-
-build leetcode05: CXX_EXECUTABLE_LINKER__leetcode05_Debug CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/leetcode05.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = leetcode05
-  TARGET_PDB = leetcode05.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target lab0401
@@ -729,8 +414,8 @@ build cmake_object_order_depends_target_lab0401: phony || CMakeFiles/lab0401.dir
 
 build CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o: CXX_COMPILER__lab0401_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab04/lab0401.cpp || cmake_object_order_depends_target_lab0401
   DEP_FILE = CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0401.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0401.dir/lab04
 
@@ -742,8 +427,9 @@ build CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o: CXX_COMPILER__lab0401_unscanne
 #############################################
 # Link the executable lab0401
 
-build lab0401: CXX_EXECUTABLE_LINKER__lab0401_Debug CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o
+build lab0401: CXX_EXECUTABLE_LINKER__lab0401_Debug CMakeFiles/lab0401.dir/lab04/lab0401.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0401.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -761,8 +447,8 @@ build cmake_object_order_depends_target_lab0402: phony || CMakeFiles/lab0402.dir
 
 build CMakeFiles/lab0402.dir/lab04/lab0402.cpp.o: CXX_COMPILER__lab0402_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab04/lab0402.cpp || cmake_object_order_depends_target_lab0402
   DEP_FILE = CMakeFiles/lab0402.dir/lab04/lab0402.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0402.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0402.dir/lab04
 
@@ -774,8 +460,9 @@ build CMakeFiles/lab0402.dir/lab04/lab0402.cpp.o: CXX_COMPILER__lab0402_unscanne
 #############################################
 # Link the executable lab0402
 
-build lab0402: CXX_EXECUTABLE_LINKER__lab0402_Debug CMakeFiles/lab0402.dir/lab04/lab0402.cpp.o
+build lab0402: CXX_EXECUTABLE_LINKER__lab0402_Debug CMakeFiles/lab0402.dir/lab04/lab0402.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0402.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -793,8 +480,8 @@ build cmake_object_order_depends_target_lab0403: phony || CMakeFiles/lab0403.dir
 
 build CMakeFiles/lab0403.dir/lab04/lab0403.cpp.o: CXX_COMPILER__lab0403_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/lab04/lab0403.cpp || cmake_object_order_depends_target_lab0403
   DEP_FILE = CMakeFiles/lab0403.dir/lab04/lab0403.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/lab0403.dir
   OBJECT_FILE_DIR = CMakeFiles/lab0403.dir/lab04
 
@@ -806,13 +493,344 @@ build CMakeFiles/lab0403.dir/lab04/lab0403.cpp.o: CXX_COMPILER__lab0403_unscanne
 #############################################
 # Link the executable lab0403
 
-build lab0403: CXX_EXECUTABLE_LINKER__lab0403_Debug CMakeFiles/lab0403.dir/lab04/lab0403.cpp.o
+build lab0403: CXX_EXECUTABLE_LINKER__lab0403_Debug CMakeFiles/lab0403.dir/lab04/lab0403.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/lab0403.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = lab0403
   TARGET_PDB = lab0403.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LIS
+
+
+#############################################
+# Order-only phony target for LIS
+
+build cmake_object_order_depends_target_LIS: phony || CMakeFiles/LIS.dir
+
+build CMakeFiles/LIS.dir/notes_DP/LIS.cpp.o: CXX_COMPILER__LIS_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/LIS.cpp || cmake_object_order_depends_target_LIS
+  DEP_FILE = CMakeFiles/LIS.dir/notes_DP/LIS.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/LIS.dir
+  OBJECT_FILE_DIR = CMakeFiles/LIS.dir/notes_DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LIS
+
+
+#############################################
+# Link the executable LIS
+
+build LIS: CXX_EXECUTABLE_LINKER__LIS_Debug CMakeFiles/LIS.dir/notes_DP/LIS.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/LIS.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LIS
+  TARGET_PDB = LIS.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LIS_optimized
+
+
+#############################################
+# Order-only phony target for LIS_optimized
+
+build cmake_object_order_depends_target_LIS_optimized: phony || CMakeFiles/LIS_optimized.dir
+
+build CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o: CXX_COMPILER__LIS_optimized_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/LIS_optimized.cpp || cmake_object_order_depends_target_LIS_optimized
+  DEP_FILE = CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/LIS_optimized.dir
+  OBJECT_FILE_DIR = CMakeFiles/LIS_optimized.dir/notes_DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LIS_optimized
+
+
+#############################################
+# Link the executable LIS_optimized
+
+build LIS_optimized: CXX_EXECUTABLE_LINKER__LIS_optimized_Debug CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/LIS_optimized.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LIS_optimized
+  TARGET_PDB = LIS_optimized.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode05
+
+
+#############################################
+# Order-only phony target for leetcode05
+
+build cmake_object_order_depends_target_leetcode05: phony || CMakeFiles/leetcode05.dir
+
+build CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o: CXX_COMPILER__leetcode05_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/leetcode05.cpp || cmake_object_order_depends_target_leetcode05
+  DEP_FILE = CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode05.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode05.dir/notes_DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode05
+
+
+#############################################
+# Link the executable leetcode05
+
+build leetcode05: CXX_EXECUTABLE_LINKER__leetcode05_Debug CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/leetcode05.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode05
+  TARGET_PDB = leetcode05.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target word_warp
+
+
+#############################################
+# Order-only phony target for word_warp
+
+build cmake_object_order_depends_target_word_warp: phony || CMakeFiles/word_warp.dir
+
+build CMakeFiles/word_warp.dir/notes_DP/word_warp.cpp.o: CXX_COMPILER__word_warp_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_DP/word_warp.cpp || cmake_object_order_depends_target_word_warp
+  DEP_FILE = CMakeFiles/word_warp.dir/notes_DP/word_warp.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/word_warp.dir
+  OBJECT_FILE_DIR = CMakeFiles/word_warp.dir/notes_DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target word_warp
+
+
+#############################################
+# Link the executable word_warp
+
+build word_warp: CXX_EXECUTABLE_LINKER__word_warp_Debug CMakeFiles/word_warp.dir/notes_DP/word_warp.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/word_warp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = word_warp
+  TARGET_PDB = word_warp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4hanoiTower
+
+
+#############################################
+# Order-only phony target for 4hanoiTower
+
+build cmake_object_order_depends_target_4hanoiTower: phony || CMakeFiles/4hanoiTower.dir
+
+build CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer/4hanoiTower.cpp.o: CXX_COMPILER__4hanoiTower_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/4hanoiTower.cpp || cmake_object_order_depends_target_4hanoiTower
+  DEP_FILE = CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer/4hanoiTower.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/4hanoiTower.dir
+  OBJECT_FILE_DIR = CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4hanoiTower
+
+
+#############################################
+# Link the executable 4hanoiTower
+
+build 4hanoiTower: CXX_EXECUTABLE_LINKER__4hanoiTower_Debug CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer/4hanoiTower.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/4hanoiTower.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4hanoiTower
+  TARGET_PDB = 4hanoiTower.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hanoi_tower
+
+
+#############################################
+# Order-only phony target for hanoi_tower
+
+build cmake_object_order_depends_target_hanoi_tower: phony || CMakeFiles/hanoi_tower.dir
+
+build CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer/hanoi_tower.cpp.o: CXX_COMPILER__hanoi_tower_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/hanoi_tower.cpp || cmake_object_order_depends_target_hanoi_tower
+  DEP_FILE = CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer/hanoi_tower.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/hanoi_tower.dir
+  OBJECT_FILE_DIR = CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hanoi_tower
+
+
+#############################################
+# Link the executable hanoi_tower
+
+build hanoi_tower: CXX_EXECUTABLE_LINKER__hanoi_tower_Debug CMakeFiles/hanoi_tower.dir/notes_Divide_and_Conquer/hanoi_tower.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/hanoi_tower.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hanoi_tower
+  TARGET_PDB = hanoi_tower.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode108
+
+
+#############################################
+# Order-only phony target for leetcode108
+
+build cmake_object_order_depends_target_leetcode108: phony || CMakeFiles/leetcode108.dir
+
+build CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer/leetcode108.cpp.o: CXX_COMPILER__leetcode108_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/leetcode108.cpp || cmake_object_order_depends_target_leetcode108
+  DEP_FILE = CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer/leetcode108.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode108.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode108
+
+
+#############################################
+# Link the executable leetcode108
+
+build leetcode108: CXX_EXECUTABLE_LINKER__leetcode108_Debug CMakeFiles/leetcode108.dir/notes_Divide_and_Conquer/leetcode108.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/leetcode108.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode108
+  TARGET_PDB = leetcode108.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode109
+
+
+#############################################
+# Order-only phony target for leetcode109
+
+build cmake_object_order_depends_target_leetcode109: phony || CMakeFiles/leetcode109.dir
+
+build CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer/leetcode109.cpp.o: CXX_COMPILER__leetcode109_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/leetcode109.cpp || cmake_object_order_depends_target_leetcode109
+  DEP_FILE = CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer/leetcode109.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode109.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode109
+
+
+#############################################
+# Link the executable leetcode109
+
+build leetcode109: CXX_EXECUTABLE_LINKER__leetcode109_Debug CMakeFiles/leetcode109.dir/notes_Divide_and_Conquer/leetcode109.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/leetcode109.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode109
+  TARGET_PDB = leetcode109.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode148
+
+
+#############################################
+# Order-only phony target for leetcode148
+
+build cmake_object_order_depends_target_leetcode148: phony || CMakeFiles/leetcode148.dir
+
+build CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer/leetcode148.cpp.o: CXX_COMPILER__leetcode148_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/leetcode148.cpp || cmake_object_order_depends_target_leetcode148
+  DEP_FILE = CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer/leetcode148.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode148.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode148
+
+
+#############################################
+# Link the executable leetcode148
+
+build leetcode148: CXX_EXECUTABLE_LINKER__leetcode148_Debug CMakeFiles/leetcode148.dir/notes_Divide_and_Conquer/leetcode148.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/leetcode148.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode148
+  TARGET_PDB = leetcode148.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target luoguP1908
+
+
+#############################################
+# Order-only phony target for luoguP1908
+
+build cmake_object_order_depends_target_luoguP1908: phony || CMakeFiles/luoguP1908.dir
+
+build CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.o: CXX_COMPILER__luoguP1908_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Divide_and_Conquer/luoguP1908.cpp || cmake_object_order_depends_target_luoguP1908
+  DEP_FILE = CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/luoguP1908.dir
+  OBJECT_FILE_DIR = CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target luoguP1908
+
+
+#############################################
+# Link the executable luoguP1908
+
+build luoguP1908: CXX_EXECUTABLE_LINKER__luoguP1908_Debug CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/luoguP1908.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = luoguP1908
+  TARGET_PDB = luoguP1908.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target leetcode11
@@ -825,8 +843,8 @@ build cmake_object_order_depends_target_leetcode11: phony || CMakeFiles/leetcode
 
 build CMakeFiles/leetcode11.dir/notes_Greedy/leetcode11.cpp.o: CXX_COMPILER__leetcode11_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode11.cpp || cmake_object_order_depends_target_leetcode11
   DEP_FILE = CMakeFiles/leetcode11.dir/notes_Greedy/leetcode11.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/leetcode11.dir
   OBJECT_FILE_DIR = CMakeFiles/leetcode11.dir/notes_Greedy
 
@@ -838,45 +856,14 @@ build CMakeFiles/leetcode11.dir/notes_Greedy/leetcode11.cpp.o: CXX_COMPILER__lee
 #############################################
 # Link the executable leetcode11
 
-build leetcode11: CXX_EXECUTABLE_LINKER__leetcode11_Debug CMakeFiles/leetcode11.dir/notes_Greedy/leetcode11.cpp.o
+build leetcode11: CXX_EXECUTABLE_LINKER__leetcode11_Debug CMakeFiles/leetcode11.dir/notes_Greedy/leetcode11.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/leetcode11.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = leetcode11
   TARGET_PDB = leetcode11.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target leetcode45
-
-
-#############################################
-# Order-only phony target for leetcode45
-
-build cmake_object_order_depends_target_leetcode45: phony || CMakeFiles/leetcode45.dir
-
-build CMakeFiles/leetcode45.dir/notes_Greedy/leetcode45.cpp.o: CXX_COMPILER__leetcode45_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode45.cpp || cmake_object_order_depends_target_leetcode45
-  DEP_FILE = CMakeFiles/leetcode45.dir/notes_Greedy/leetcode45.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
-  OBJECT_DIR = CMakeFiles/leetcode45.dir
-  OBJECT_FILE_DIR = CMakeFiles/leetcode45.dir/notes_Greedy
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target leetcode45
-
-
-#############################################
-# Link the executable leetcode45
-
-build leetcode45: CXX_EXECUTABLE_LINKER__leetcode45_Debug CMakeFiles/leetcode45.dir/notes_Greedy/leetcode45.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-  OBJECT_DIR = CMakeFiles/leetcode45.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = leetcode45
-  TARGET_PDB = leetcode45.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target leetcode122
@@ -889,8 +876,8 @@ build cmake_object_order_depends_target_leetcode122: phony || CMakeFiles/leetcod
 
 build CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o: CXX_COMPILER__leetcode122_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode122.cpp || cmake_object_order_depends_target_leetcode122
   DEP_FILE = CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/leetcode122.dir
   OBJECT_FILE_DIR = CMakeFiles/leetcode122.dir/notes_Greedy
 
@@ -902,8 +889,9 @@ build CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o: CXX_COMPILER__l
 #############################################
 # Link the executable leetcode122
 
-build leetcode122: CXX_EXECUTABLE_LINKER__leetcode122_Debug CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o
+build leetcode122: CXX_EXECUTABLE_LINKER__leetcode122_Debug CMakeFiles/leetcode122.dir/notes_Greedy/leetcode122.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/leetcode122.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -921,8 +909,8 @@ build cmake_object_order_depends_target_leetcode134: phony || CMakeFiles/leetcod
 
 build CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o: CXX_COMPILER__leetcode134_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode134.cpp || cmake_object_order_depends_target_leetcode134
   DEP_FILE = CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics
-  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -I/opt/homebrew/opt/libomp/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
   OBJECT_DIR = CMakeFiles/leetcode134.dir
   OBJECT_FILE_DIR = CMakeFiles/leetcode134.dir/notes_Greedy
 
@@ -934,13 +922,47 @@ build CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o: CXX_COMPILER__l
 #############################################
 # Link the executable leetcode134
 
-build leetcode134: CXX_EXECUTABLE_LINKER__leetcode134_Debug CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o
+build leetcode134: CXX_EXECUTABLE_LINKER__leetcode134_Debug CMakeFiles/leetcode134.dir/notes_Greedy/leetcode134.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/leetcode134.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = leetcode134
   TARGET_PDB = leetcode134.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leetcode45
+
+
+#############################################
+# Order-only phony target for leetcode45
+
+build cmake_object_order_depends_target_leetcode45: phony || CMakeFiles/leetcode45.dir
+
+build CMakeFiles/leetcode45.dir/notes_Greedy/leetcode45.cpp.o: CXX_COMPILER__leetcode45_unscanned_Debug /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode45.cpp || cmake_object_order_depends_target_leetcode45
+  DEP_FILE = CMakeFiles/leetcode45.dir/notes_Greedy/leetcode45.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp
+  INCLUDES = -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -I/usr/local/include -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/leetcode45.dir
+  OBJECT_FILE_DIR = CMakeFiles/leetcode45.dir/notes_Greedy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leetcode45
+
+
+#############################################
+# Link the executable leetcode45
+
+build leetcode45: CXX_EXECUTABLE_LINKER__leetcode45_Debug CMakeFiles/leetcode45.dir/notes_Greedy/leetcode45.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
+  OBJECT_DIR = CMakeFiles/leetcode45.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = leetcode45
+  TARGET_PDB = leetcode45.dbg
 
 
 #############################################
@@ -976,7 +998,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/cmake-build-debug
 
-build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 hanoi_tower 4hanoiTower leetcode108 leetcode109 luoguP1908 leetcode148 lab0301 lab0302 LIS LIS_optimized pretty_print lab0303 lab0304 leetcode05 lab0401 lab0402 lab0403 leetcode11 leetcode45 leetcode122 leetcode134
+build all: phony lab0101 lab0102 lab0103 lab0104 lab0201 lab0202 lab0203 lab0301 lab0302 lab0303 lab0304 lab0401 lab0402 lab0403 LIS LIS_optimized leetcode05 word_warp 4hanoiTower hanoi_tower leetcode108 leetcode109 leetcode148 luoguP1908 leetcode11 leetcode122 leetcode134 leetcode45
 
 # =============================================================================
 # Built-in targets
