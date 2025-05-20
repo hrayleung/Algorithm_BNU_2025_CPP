@@ -3,20 +3,24 @@
 #include <cmath>
 using namespace std;
 
-class FourTowerHanoi {
+class FourTowerHanoi
+{
 public:
     int step = 0;
 
     // Move top disk from src to tar
-    void move(vector<int>& src, vector<int>& tar) {
+    void move(vector<int> &src, vector<int> &tar)
+    {
         int pan = src.back();
         src.pop_back();
         tar.push_back(pan);
     }
 
     // Solve Hanoi with 3 towers recursively
-    void dfs(int i, vector<int>& src, vector<int>& buf, vector<int>& tar) {
-        if (i == 1) {
+    void dfs(int i, vector<int> &src, vector<int> &buf, vector<int> &tar)
+    {
+        if (i == 1)
+        {
             move(src, tar);
             step++;
             return;
@@ -28,15 +32,20 @@ public:
     }
 
     // Solve Hanoi with 3 towers
-    void hanoi3(int n, vector<int>& A, vector<int>& B, vector<int>& C) {
-        if (n <= 0) return;
+    void hanoi3(int n, vector<int> &A, vector<int> &B, vector<int> &C)
+    {
+        if (n <= 0)
+            return;
         dfs(n, A, B, C);
     }
 
     // Solve Hanoi with 4 towers
-    void hanoi4(int n, vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
-        if (n == 0) return;
-        if (n == 1) {
+    void hanoi4(int n, vector<int> &A, vector<int> &B, vector<int> &C, vector<int> &D)
+    {
+        if (n == 0)
+            return;
+        if (n == 1)
+        {
             move(A, D);
             step++;
             return;
@@ -44,7 +53,8 @@ public:
 
         // Optimal number of disks to move to buffer
         int k = static_cast<int>(sqrt(2 * n));
-        if (k >= n) k = n - 1;
+        if (k >= n)
+            k = n - 1;
 
         // Move k disks to first buffer
         hanoi4(k, A, C, D, B);
@@ -55,7 +65,8 @@ public:
     }
 };
 
-int main() {
+int main()
+{
     vector<int> A, B, C, D;
     int n;
 
@@ -63,7 +74,8 @@ int main() {
     cin >> n;
 
     // Fill source tower with n disks
-    for (int i = n; i > 0; i--) {
+    for (int i = n; i > 0; i--)
+    {
         A.push_back(i);
     }
 
