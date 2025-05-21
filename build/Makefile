@@ -338,6 +338,19 @@ leetcode05/fast:
 .PHONY : leetcode05/fast
 
 #=============================================================================
+# Target rules for targets named leetcode22
+
+# Build rule for target.
+leetcode22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode22
+.PHONY : leetcode22
+
+# fast build rule for target.
+leetcode22/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode22.dir/build.make CMakeFiles/leetcode22.dir/build
+.PHONY : leetcode22/fast
+
+#=============================================================================
 # Target rules for targets named word_warp
 
 # Build rule for target.
@@ -901,6 +914,30 @@ notes_DP/leetcode05.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode05.dir/build.make CMakeFiles/leetcode05.dir/notes_DP/leetcode05.cpp.s
 .PHONY : notes_DP/leetcode05.cpp.s
 
+notes_DP/leetcode22.o: notes_DP/leetcode22.cpp.o
+.PHONY : notes_DP/leetcode22.o
+
+# target to build an object file
+notes_DP/leetcode22.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode22.dir/build.make CMakeFiles/leetcode22.dir/notes_DP/leetcode22.cpp.o
+.PHONY : notes_DP/leetcode22.cpp.o
+
+notes_DP/leetcode22.i: notes_DP/leetcode22.cpp.i
+.PHONY : notes_DP/leetcode22.i
+
+# target to preprocess a source file
+notes_DP/leetcode22.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode22.dir/build.make CMakeFiles/leetcode22.dir/notes_DP/leetcode22.cpp.i
+.PHONY : notes_DP/leetcode22.cpp.i
+
+notes_DP/leetcode22.s: notes_DP/leetcode22.cpp.s
+.PHONY : notes_DP/leetcode22.s
+
+# target to generate assembly for a file
+notes_DP/leetcode22.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode22.dir/build.make CMakeFiles/leetcode22.dir/notes_DP/leetcode22.cpp.s
+.PHONY : notes_DP/leetcode22.cpp.s
+
 notes_DP/word_warp.o: notes_DP/word_warp.cpp.o
 .PHONY : notes_DP/word_warp.o
 
@@ -1223,6 +1260,7 @@ help:
 	@echo "... leetcode134"
 	@echo "... leetcode135"
 	@echo "... leetcode148"
+	@echo "... leetcode22"
 	@echo "... leetcode45"
 	@echo "... luoguP1908"
 	@echo "... word_warp"
@@ -1277,6 +1315,9 @@ help:
 	@echo "... notes_DP/leetcode05.o"
 	@echo "... notes_DP/leetcode05.i"
 	@echo "... notes_DP/leetcode05.s"
+	@echo "... notes_DP/leetcode22.o"
+	@echo "... notes_DP/leetcode22.i"
+	@echo "... notes_DP/leetcode22.s"
 	@echo "... notes_DP/word_warp.o"
 	@echo "... notes_DP/word_warp.i"
 	@echo "... notes_DP/word_warp.s"

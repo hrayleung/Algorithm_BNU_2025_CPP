@@ -77,6 +77,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LIS.dir/DependInfo.cmake"
   "CMakeFiles/LIS_optimized.dir/DependInfo.cmake"
   "CMakeFiles/leetcode05.dir/DependInfo.cmake"
+  "CMakeFiles/leetcode22.dir/DependInfo.cmake"
   "CMakeFiles/word_warp.dir/DependInfo.cmake"
   "CMakeFiles/4hanoiTower.dir/DependInfo.cmake"
   "CMakeFiles/hanoi_tower.dir/DependInfo.cmake"

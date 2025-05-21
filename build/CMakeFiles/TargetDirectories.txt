@@ -15,6 +15,7 @@
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles/LIS.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles/LIS_optimized.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles/leetcode05.dir
+/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles/leetcode22.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles/word_warp.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles/4hanoiTower.dir
 /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles/hanoi_tower.dir
