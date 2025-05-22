@@ -442,6 +442,19 @@ luoguP1908/fast:
 .PHONY : luoguP1908/fast
 
 #=============================================================================
+# Target rules for targets named bellman_ford
+
+# Build rule for target.
+bellman_ford: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bellman_ford
+.PHONY : bellman_ford
+
+# fast build rule for target.
+bellman_ford/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bellman_ford.dir/build.make CMakeFiles/bellman_ford.dir/build
+.PHONY : bellman_ford/fast
+
+#=============================================================================
 # Target rules for targets named dijkstra
 
 # Build rule for target.
@@ -1119,6 +1132,30 @@ notes_Divide_and_Conquer/luoguP1908.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luoguP1908.dir/build.make CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.s
 .PHONY : notes_Divide_and_Conquer/luoguP1908.cpp.s
 
+notes_Greedy/bellman_ford.o: notes_Greedy/bellman_ford.cpp.o
+.PHONY : notes_Greedy/bellman_ford.o
+
+# target to build an object file
+notes_Greedy/bellman_ford.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bellman_ford.dir/build.make CMakeFiles/bellman_ford.dir/notes_Greedy/bellman_ford.cpp.o
+.PHONY : notes_Greedy/bellman_ford.cpp.o
+
+notes_Greedy/bellman_ford.i: notes_Greedy/bellman_ford.cpp.i
+.PHONY : notes_Greedy/bellman_ford.i
+
+# target to preprocess a source file
+notes_Greedy/bellman_ford.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bellman_ford.dir/build.make CMakeFiles/bellman_ford.dir/notes_Greedy/bellman_ford.cpp.i
+.PHONY : notes_Greedy/bellman_ford.cpp.i
+
+notes_Greedy/bellman_ford.s: notes_Greedy/bellman_ford.cpp.s
+.PHONY : notes_Greedy/bellman_ford.s
+
+# target to generate assembly for a file
+notes_Greedy/bellman_ford.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bellman_ford.dir/build.make CMakeFiles/bellman_ford.dir/notes_Greedy/bellman_ford.cpp.s
+.PHONY : notes_Greedy/bellman_ford.cpp.s
+
 notes_Greedy/dijkstra.o: notes_Greedy/dijkstra.cpp.o
 .PHONY : notes_Greedy/dijkstra.o
 
@@ -1274,6 +1311,7 @@ help:
 	@echo "... 4hanoiTower"
 	@echo "... LIS"
 	@echo "... LIS_optimized"
+	@echo "... bellman_ford"
 	@echo "... dijkstra"
 	@echo "... hanoi_tower"
 	@echo "... lab0101"
@@ -1377,6 +1415,9 @@ help:
 	@echo "... notes_Divide_and_Conquer/luoguP1908.o"
 	@echo "... notes_Divide_and_Conquer/luoguP1908.i"
 	@echo "... notes_Divide_and_Conquer/luoguP1908.s"
+	@echo "... notes_Greedy/bellman_ford.o"
+	@echo "... notes_Greedy/bellman_ford.i"
+	@echo "... notes_Greedy/bellman_ford.s"
 	@echo "... notes_Greedy/dijkstra.o"
 	@echo "... notes_Greedy/dijkstra.i"
 	@echo "... notes_Greedy/dijkstra.s"
