@@ -442,6 +442,19 @@ luoguP1908/fast:
 .PHONY : luoguP1908/fast
 
 #=============================================================================
+# Target rules for targets named dijkstra
+
+# Build rule for target.
+dijkstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dijkstra
+.PHONY : dijkstra
+
+# fast build rule for target.
+dijkstra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/build
+.PHONY : dijkstra/fast
+
+#=============================================================================
 # Target rules for targets named leetcode11
 
 # Build rule for target.
@@ -1106,6 +1119,30 @@ notes_Divide_and_Conquer/luoguP1908.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luoguP1908.dir/build.make CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.s
 .PHONY : notes_Divide_and_Conquer/luoguP1908.cpp.s
 
+notes_Greedy/dijkstra.o: notes_Greedy/dijkstra.cpp.o
+.PHONY : notes_Greedy/dijkstra.o
+
+# target to build an object file
+notes_Greedy/dijkstra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/notes_Greedy/dijkstra.cpp.o
+.PHONY : notes_Greedy/dijkstra.cpp.o
+
+notes_Greedy/dijkstra.i: notes_Greedy/dijkstra.cpp.i
+.PHONY : notes_Greedy/dijkstra.i
+
+# target to preprocess a source file
+notes_Greedy/dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/notes_Greedy/dijkstra.cpp.i
+.PHONY : notes_Greedy/dijkstra.cpp.i
+
+notes_Greedy/dijkstra.s: notes_Greedy/dijkstra.cpp.s
+.PHONY : notes_Greedy/dijkstra.s
+
+# target to generate assembly for a file
+notes_Greedy/dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/notes_Greedy/dijkstra.cpp.s
+.PHONY : notes_Greedy/dijkstra.cpp.s
+
 notes_Greedy/leetcode11.o: notes_Greedy/leetcode11.cpp.o
 .PHONY : notes_Greedy/leetcode11.o
 
@@ -1237,6 +1274,7 @@ help:
 	@echo "... 4hanoiTower"
 	@echo "... LIS"
 	@echo "... LIS_optimized"
+	@echo "... dijkstra"
 	@echo "... hanoi_tower"
 	@echo "... lab0101"
 	@echo "... lab0102"
@@ -1339,6 +1377,9 @@ help:
 	@echo "... notes_Divide_and_Conquer/luoguP1908.o"
 	@echo "... notes_Divide_and_Conquer/luoguP1908.i"
 	@echo "... notes_Divide_and_Conquer/luoguP1908.s"
+	@echo "... notes_Greedy/dijkstra.o"
+	@echo "... notes_Greedy/dijkstra.i"
+	@echo "... notes_Greedy/dijkstra.s"
 	@echo "... notes_Greedy/leetcode11.o"
 	@echo "... notes_Greedy/leetcode11.i"
 	@echo "... notes_Greedy/leetcode11.s"

@@ -151,6 +151,12 @@
 },
 {
   "directory": "/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Xpreprocessor -fopenmp -o CMakeFiles/dijkstra.dir/notes_Greedy/dijkstra.cpp.o -c /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/dijkstra.cpp",
+  "file": "/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/dijkstra.cpp",
+  "output": "CMakeFiles/dijkstra.dir/notes_Greedy/dijkstra.cpp.o"
+},
+{
+  "directory": "/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build",
   "command": "/usr/bin/clang++  -I/opt/homebrew/include -isystem /opt/homebrew/opt/libomp/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Xpreprocessor -fopenmp -o CMakeFiles/leetcode11.dir/notes_Greedy/leetcode11.cpp.o -c /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode11.cpp",
   "file": "/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/notes_Greedy/leetcode11.cpp",
   "output": "CMakeFiles/leetcode11.dir/notes_Greedy/leetcode11.cpp.o"

@@ -88,6 +88,7 @@ all: CMakeFiles/leetcode108.dir/all
 all: CMakeFiles/leetcode109.dir/all
 all: CMakeFiles/leetcode148.dir/all
 all: CMakeFiles/luoguP1908.dir/all
+all: CMakeFiles/dijkstra.dir/all
 all: CMakeFiles/leetcode11.dir/all
 all: CMakeFiles/leetcode122.dir/all
 all: CMakeFiles/leetcode134.dir/all
@@ -121,6 +122,7 @@ codegen: CMakeFiles/leetcode108.dir/codegen
 codegen: CMakeFiles/leetcode109.dir/codegen
 codegen: CMakeFiles/leetcode148.dir/codegen
 codegen: CMakeFiles/luoguP1908.dir/codegen
+codegen: CMakeFiles/dijkstra.dir/codegen
 codegen: CMakeFiles/leetcode11.dir/codegen
 codegen: CMakeFiles/leetcode122.dir/codegen
 codegen: CMakeFiles/leetcode134.dir/codegen
@@ -158,6 +160,7 @@ clean: CMakeFiles/leetcode108.dir/clean
 clean: CMakeFiles/leetcode109.dir/clean
 clean: CMakeFiles/leetcode148.dir/clean
 clean: CMakeFiles/luoguP1908.dir/clean
+clean: CMakeFiles/dijkstra.dir/clean
 clean: CMakeFiles/leetcode11.dir/clean
 clean: CMakeFiles/leetcode122.dir/clean
 clean: CMakeFiles/leetcode134.dir/clean
@@ -172,7 +175,7 @@ clean: CMakeFiles/leetcode45.dir/clean
 CMakeFiles/lab0101.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0101.dir/build.make CMakeFiles/lab0101.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0101.dir/build.make CMakeFiles/lab0101.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=9,10 "Built target lab0101"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=11,12 "Built target lab0101"
 .PHONY : CMakeFiles/lab0101.dir/all
 
 # Build rule for subdir invocation for target.
@@ -189,7 +192,7 @@ lab0101: CMakeFiles/lab0101.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0101.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0101.dir/build.make CMakeFiles/lab0101.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=9,10 "Finished codegen for target lab0101"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=11,12 "Finished codegen for target lab0101"
 .PHONY : CMakeFiles/lab0101.dir/codegen
 
 # clean rule for target.
@@ -204,7 +207,7 @@ CMakeFiles/lab0101.dir/clean:
 CMakeFiles/lab0102.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0102.dir/build.make CMakeFiles/lab0102.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0102.dir/build.make CMakeFiles/lab0102.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=11,12 "Built target lab0102"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=13,14 "Built target lab0102"
 .PHONY : CMakeFiles/lab0102.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +224,7 @@ lab0102: CMakeFiles/lab0102.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0102.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0102.dir/build.make CMakeFiles/lab0102.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=11,12 "Finished codegen for target lab0102"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=13,14 "Finished codegen for target lab0102"
 .PHONY : CMakeFiles/lab0102.dir/codegen
 
 # clean rule for target.
@@ -236,7 +239,7 @@ CMakeFiles/lab0102.dir/clean:
 CMakeFiles/lab0103.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0103.dir/build.make CMakeFiles/lab0103.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0103.dir/build.make CMakeFiles/lab0103.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=13,14 "Built target lab0103"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=15,16 "Built target lab0103"
 .PHONY : CMakeFiles/lab0103.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +256,7 @@ lab0103: CMakeFiles/lab0103.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0103.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0103.dir/build.make CMakeFiles/lab0103.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=13,14 "Finished codegen for target lab0103"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=15,16 "Finished codegen for target lab0103"
 .PHONY : CMakeFiles/lab0103.dir/codegen
 
 # clean rule for target.
@@ -268,7 +271,7 @@ CMakeFiles/lab0103.dir/clean:
 CMakeFiles/lab0104.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0104.dir/build.make CMakeFiles/lab0104.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0104.dir/build.make CMakeFiles/lab0104.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=15,16 "Built target lab0104"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=17,18 "Built target lab0104"
 .PHONY : CMakeFiles/lab0104.dir/all
 
 # Build rule for subdir invocation for target.
@@ -285,7 +288,7 @@ lab0104: CMakeFiles/lab0104.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0104.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0104.dir/build.make CMakeFiles/lab0104.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=15,16 "Finished codegen for target lab0104"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=17,18 "Finished codegen for target lab0104"
 .PHONY : CMakeFiles/lab0104.dir/codegen
 
 # clean rule for target.
@@ -300,7 +303,7 @@ CMakeFiles/lab0104.dir/clean:
 CMakeFiles/lab0201.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0201.dir/build.make CMakeFiles/lab0201.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0201.dir/build.make CMakeFiles/lab0201.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=17,18 "Built target lab0201"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=19,20 "Built target lab0201"
 .PHONY : CMakeFiles/lab0201.dir/all
 
 # Build rule for subdir invocation for target.
@@ -317,7 +320,7 @@ lab0201: CMakeFiles/lab0201.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0201.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0201.dir/build.make CMakeFiles/lab0201.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=17,18 "Finished codegen for target lab0201"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=19,20 "Finished codegen for target lab0201"
 .PHONY : CMakeFiles/lab0201.dir/codegen
 
 # clean rule for target.
@@ -332,7 +335,7 @@ CMakeFiles/lab0201.dir/clean:
 CMakeFiles/lab0202.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0202.dir/build.make CMakeFiles/lab0202.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0202.dir/build.make CMakeFiles/lab0202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=19,20 "Built target lab0202"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=21,22 "Built target lab0202"
 .PHONY : CMakeFiles/lab0202.dir/all
 
 # Build rule for subdir invocation for target.
@@ -349,7 +352,7 @@ lab0202: CMakeFiles/lab0202.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0202.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0202.dir/build.make CMakeFiles/lab0202.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=19,20 "Finished codegen for target lab0202"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=21,22 "Finished codegen for target lab0202"
 .PHONY : CMakeFiles/lab0202.dir/codegen
 
 # clean rule for target.
@@ -364,7 +367,7 @@ CMakeFiles/lab0202.dir/clean:
 CMakeFiles/lab0203.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0203.dir/build.make CMakeFiles/lab0203.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0203.dir/build.make CMakeFiles/lab0203.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=21,22 "Built target lab0203"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=23,24 "Built target lab0203"
 .PHONY : CMakeFiles/lab0203.dir/all
 
 # Build rule for subdir invocation for target.
@@ -381,7 +384,7 @@ lab0203: CMakeFiles/lab0203.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0203.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0203.dir/build.make CMakeFiles/lab0203.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=21,22 "Finished codegen for target lab0203"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=23,24 "Finished codegen for target lab0203"
 .PHONY : CMakeFiles/lab0203.dir/codegen
 
 # clean rule for target.
@@ -396,7 +399,7 @@ CMakeFiles/lab0203.dir/clean:
 CMakeFiles/lab0301.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0301.dir/build.make CMakeFiles/lab0301.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0301.dir/build.make CMakeFiles/lab0301.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=23,24 "Built target lab0301"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=25,26 "Built target lab0301"
 .PHONY : CMakeFiles/lab0301.dir/all
 
 # Build rule for subdir invocation for target.
@@ -413,7 +416,7 @@ lab0301: CMakeFiles/lab0301.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0301.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0301.dir/build.make CMakeFiles/lab0301.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=23,24 "Finished codegen for target lab0301"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=25,26 "Finished codegen for target lab0301"
 .PHONY : CMakeFiles/lab0301.dir/codegen
 
 # clean rule for target.
@@ -428,7 +431,7 @@ CMakeFiles/lab0301.dir/clean:
 CMakeFiles/lab0302.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0302.dir/build.make CMakeFiles/lab0302.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0302.dir/build.make CMakeFiles/lab0302.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=25,26 "Built target lab0302"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=27,28 "Built target lab0302"
 .PHONY : CMakeFiles/lab0302.dir/all
 
 # Build rule for subdir invocation for target.
@@ -445,7 +448,7 @@ lab0302: CMakeFiles/lab0302.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0302.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0302.dir/build.make CMakeFiles/lab0302.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=25,26 "Finished codegen for target lab0302"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=27,28 "Finished codegen for target lab0302"
 .PHONY : CMakeFiles/lab0302.dir/codegen
 
 # clean rule for target.
@@ -460,7 +463,7 @@ CMakeFiles/lab0302.dir/clean:
 CMakeFiles/lab0303.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0303.dir/build.make CMakeFiles/lab0303.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0303.dir/build.make CMakeFiles/lab0303.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=27,28 "Built target lab0303"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=29,30 "Built target lab0303"
 .PHONY : CMakeFiles/lab0303.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,7 +480,7 @@ lab0303: CMakeFiles/lab0303.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0303.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0303.dir/build.make CMakeFiles/lab0303.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=27,28 "Finished codegen for target lab0303"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=29,30 "Finished codegen for target lab0303"
 .PHONY : CMakeFiles/lab0303.dir/codegen
 
 # clean rule for target.
@@ -492,7 +495,7 @@ CMakeFiles/lab0303.dir/clean:
 CMakeFiles/lab0304.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0304.dir/build.make CMakeFiles/lab0304.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0304.dir/build.make CMakeFiles/lab0304.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=29,30 "Built target lab0304"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=31,32 "Built target lab0304"
 .PHONY : CMakeFiles/lab0304.dir/all
 
 # Build rule for subdir invocation for target.
@@ -509,7 +512,7 @@ lab0304: CMakeFiles/lab0304.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0304.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0304.dir/build.make CMakeFiles/lab0304.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=29,30 "Finished codegen for target lab0304"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=31,32 "Finished codegen for target lab0304"
 .PHONY : CMakeFiles/lab0304.dir/codegen
 
 # clean rule for target.
@@ -524,7 +527,7 @@ CMakeFiles/lab0304.dir/clean:
 CMakeFiles/lab0401.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0401.dir/build.make CMakeFiles/lab0401.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0401.dir/build.make CMakeFiles/lab0401.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=31,32 "Built target lab0401"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=33,34 "Built target lab0401"
 .PHONY : CMakeFiles/lab0401.dir/all
 
 # Build rule for subdir invocation for target.
@@ -541,7 +544,7 @@ lab0401: CMakeFiles/lab0401.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0401.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0401.dir/build.make CMakeFiles/lab0401.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=31,32 "Finished codegen for target lab0401"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=33,34 "Finished codegen for target lab0401"
 .PHONY : CMakeFiles/lab0401.dir/codegen
 
 # clean rule for target.
@@ -556,7 +559,7 @@ CMakeFiles/lab0401.dir/clean:
 CMakeFiles/lab0402.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0402.dir/build.make CMakeFiles/lab0402.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0402.dir/build.make CMakeFiles/lab0402.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=33,34 "Built target lab0402"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=35,36 "Built target lab0402"
 .PHONY : CMakeFiles/lab0402.dir/all
 
 # Build rule for subdir invocation for target.
@@ -573,7 +576,7 @@ lab0402: CMakeFiles/lab0402.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0402.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0402.dir/build.make CMakeFiles/lab0402.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=33,34 "Finished codegen for target lab0402"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=35,36 "Finished codegen for target lab0402"
 .PHONY : CMakeFiles/lab0402.dir/codegen
 
 # clean rule for target.
@@ -588,7 +591,7 @@ CMakeFiles/lab0402.dir/clean:
 CMakeFiles/lab0403.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0403.dir/build.make CMakeFiles/lab0403.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0403.dir/build.make CMakeFiles/lab0403.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=35,36 "Built target lab0403"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=37,38 "Built target lab0403"
 .PHONY : CMakeFiles/lab0403.dir/all
 
 # Build rule for subdir invocation for target.
@@ -605,7 +608,7 @@ lab0403: CMakeFiles/lab0403.dir/rule
 # codegen rule for target.
 CMakeFiles/lab0403.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0403.dir/build.make CMakeFiles/lab0403.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=35,36 "Finished codegen for target lab0403"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=37,38 "Finished codegen for target lab0403"
 .PHONY : CMakeFiles/lab0403.dir/codegen
 
 # clean rule for target.
@@ -684,7 +687,7 @@ CMakeFiles/LIS_optimized.dir/clean:
 CMakeFiles/leetcode05.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode05.dir/build.make CMakeFiles/leetcode05.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode05.dir/build.make CMakeFiles/leetcode05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=37,38 "Built target leetcode05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=39,40 "Built target leetcode05"
 .PHONY : CMakeFiles/leetcode05.dir/all
 
 # Build rule for subdir invocation for target.
@@ -701,7 +704,7 @@ leetcode05: CMakeFiles/leetcode05.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode05.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode05.dir/build.make CMakeFiles/leetcode05.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=37,38 "Finished codegen for target leetcode05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=39,40 "Finished codegen for target leetcode05"
 .PHONY : CMakeFiles/leetcode05.dir/codegen
 
 # clean rule for target.
@@ -716,7 +719,7 @@ CMakeFiles/leetcode05.dir/clean:
 CMakeFiles/leetcode22.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode22.dir/build.make CMakeFiles/leetcode22.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode22.dir/build.make CMakeFiles/leetcode22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=53,54 "Built target leetcode22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=55,56 "Built target leetcode22"
 .PHONY : CMakeFiles/leetcode22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -733,7 +736,7 @@ leetcode22: CMakeFiles/leetcode22.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode22.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode22.dir/build.make CMakeFiles/leetcode22.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=53,54 "Finished codegen for target leetcode22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=55,56 "Finished codegen for target leetcode22"
 .PHONY : CMakeFiles/leetcode22.dir/codegen
 
 # clean rule for target.
@@ -748,7 +751,7 @@ CMakeFiles/leetcode22.dir/clean:
 CMakeFiles/word_warp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/word_warp.dir/build.make CMakeFiles/word_warp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/word_warp.dir/build.make CMakeFiles/word_warp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=59,60 "Built target word_warp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=61,62 "Built target word_warp"
 .PHONY : CMakeFiles/word_warp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -765,7 +768,7 @@ word_warp: CMakeFiles/word_warp.dir/rule
 # codegen rule for target.
 CMakeFiles/word_warp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/word_warp.dir/build.make CMakeFiles/word_warp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=59,60 "Finished codegen for target word_warp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=61,62 "Finished codegen for target word_warp"
 .PHONY : CMakeFiles/word_warp.dir/codegen
 
 # clean rule for target.
@@ -812,7 +815,7 @@ CMakeFiles/4hanoiTower.dir/clean:
 CMakeFiles/hanoi_tower.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hanoi_tower.dir/build.make CMakeFiles/hanoi_tower.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hanoi_tower.dir/build.make CMakeFiles/hanoi_tower.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=7,8 "Built target hanoi_tower"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=9,10 "Built target hanoi_tower"
 .PHONY : CMakeFiles/hanoi_tower.dir/all
 
 # Build rule for subdir invocation for target.
@@ -829,7 +832,7 @@ hanoi_tower: CMakeFiles/hanoi_tower.dir/rule
 # codegen rule for target.
 CMakeFiles/hanoi_tower.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hanoi_tower.dir/build.make CMakeFiles/hanoi_tower.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=7,8 "Finished codegen for target hanoi_tower"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=9,10 "Finished codegen for target hanoi_tower"
 .PHONY : CMakeFiles/hanoi_tower.dir/codegen
 
 # clean rule for target.
@@ -844,7 +847,7 @@ CMakeFiles/hanoi_tower.dir/clean:
 CMakeFiles/leetcode108.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode108.dir/build.make CMakeFiles/leetcode108.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode108.dir/build.make CMakeFiles/leetcode108.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=39,40 "Built target leetcode108"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=41,42 "Built target leetcode108"
 .PHONY : CMakeFiles/leetcode108.dir/all
 
 # Build rule for subdir invocation for target.
@@ -861,7 +864,7 @@ leetcode108: CMakeFiles/leetcode108.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode108.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode108.dir/build.make CMakeFiles/leetcode108.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=39,40 "Finished codegen for target leetcode108"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=41,42 "Finished codegen for target leetcode108"
 .PHONY : CMakeFiles/leetcode108.dir/codegen
 
 # clean rule for target.
@@ -876,7 +879,7 @@ CMakeFiles/leetcode108.dir/clean:
 CMakeFiles/leetcode109.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode109.dir/build.make CMakeFiles/leetcode109.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode109.dir/build.make CMakeFiles/leetcode109.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=41,42 "Built target leetcode109"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=43,44 "Built target leetcode109"
 .PHONY : CMakeFiles/leetcode109.dir/all
 
 # Build rule for subdir invocation for target.
@@ -893,7 +896,7 @@ leetcode109: CMakeFiles/leetcode109.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode109.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode109.dir/build.make CMakeFiles/leetcode109.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=41,42 "Finished codegen for target leetcode109"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=43,44 "Finished codegen for target leetcode109"
 .PHONY : CMakeFiles/leetcode109.dir/codegen
 
 # clean rule for target.
@@ -908,7 +911,7 @@ CMakeFiles/leetcode109.dir/clean:
 CMakeFiles/leetcode148.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode148.dir/build.make CMakeFiles/leetcode148.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode148.dir/build.make CMakeFiles/leetcode148.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=51,52 "Built target leetcode148"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=53,54 "Built target leetcode148"
 .PHONY : CMakeFiles/leetcode148.dir/all
 
 # Build rule for subdir invocation for target.
@@ -925,7 +928,7 @@ leetcode148: CMakeFiles/leetcode148.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode148.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode148.dir/build.make CMakeFiles/leetcode148.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=51,52 "Finished codegen for target leetcode148"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=53,54 "Finished codegen for target leetcode148"
 .PHONY : CMakeFiles/leetcode148.dir/codegen
 
 # clean rule for target.
@@ -940,7 +943,7 @@ CMakeFiles/leetcode148.dir/clean:
 CMakeFiles/luoguP1908.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luoguP1908.dir/build.make CMakeFiles/luoguP1908.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luoguP1908.dir/build.make CMakeFiles/luoguP1908.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=57,58 "Built target luoguP1908"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=59,60 "Built target luoguP1908"
 .PHONY : CMakeFiles/luoguP1908.dir/all
 
 # Build rule for subdir invocation for target.
@@ -957,7 +960,7 @@ luoguP1908: CMakeFiles/luoguP1908.dir/rule
 # codegen rule for target.
 CMakeFiles/luoguP1908.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luoguP1908.dir/build.make CMakeFiles/luoguP1908.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=57,58 "Finished codegen for target luoguP1908"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=59,60 "Finished codegen for target luoguP1908"
 .PHONY : CMakeFiles/luoguP1908.dir/codegen
 
 # clean rule for target.
@@ -966,13 +969,45 @@ CMakeFiles/luoguP1908.dir/clean:
 .PHONY : CMakeFiles/luoguP1908.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/dijkstra.dir
+
+# All Build rule for target.
+CMakeFiles/dijkstra.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=7,8 "Built target dijkstra"
+.PHONY : CMakeFiles/dijkstra.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dijkstra.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dijkstra.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/dijkstra.dir/rule
+
+# Convenience name for target.
+dijkstra: CMakeFiles/dijkstra.dir/rule
+.PHONY : dijkstra
+
+# codegen rule for target.
+CMakeFiles/dijkstra.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=7,8 "Finished codegen for target dijkstra"
+.PHONY : CMakeFiles/dijkstra.dir/codegen
+
+# clean rule for target.
+CMakeFiles/dijkstra.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra.dir/build.make CMakeFiles/dijkstra.dir/clean
+.PHONY : CMakeFiles/dijkstra.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/leetcode11.dir
 
 # All Build rule for target.
 CMakeFiles/leetcode11.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode11.dir/build.make CMakeFiles/leetcode11.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode11.dir/build.make CMakeFiles/leetcode11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=43,44 "Built target leetcode11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=45,46 "Built target leetcode11"
 .PHONY : CMakeFiles/leetcode11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -989,7 +1024,7 @@ leetcode11: CMakeFiles/leetcode11.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode11.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode11.dir/build.make CMakeFiles/leetcode11.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=43,44 "Finished codegen for target leetcode11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=45,46 "Finished codegen for target leetcode11"
 .PHONY : CMakeFiles/leetcode11.dir/codegen
 
 # clean rule for target.
@@ -1004,7 +1039,7 @@ CMakeFiles/leetcode11.dir/clean:
 CMakeFiles/leetcode122.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode122.dir/build.make CMakeFiles/leetcode122.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode122.dir/build.make CMakeFiles/leetcode122.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=45,46 "Built target leetcode122"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=47,48 "Built target leetcode122"
 .PHONY : CMakeFiles/leetcode122.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1021,7 +1056,7 @@ leetcode122: CMakeFiles/leetcode122.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode122.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode122.dir/build.make CMakeFiles/leetcode122.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=45,46 "Finished codegen for target leetcode122"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=47,48 "Finished codegen for target leetcode122"
 .PHONY : CMakeFiles/leetcode122.dir/codegen
 
 # clean rule for target.
@@ -1036,7 +1071,7 @@ CMakeFiles/leetcode122.dir/clean:
 CMakeFiles/leetcode134.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode134.dir/build.make CMakeFiles/leetcode134.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode134.dir/build.make CMakeFiles/leetcode134.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=47,48 "Built target leetcode134"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=49,50 "Built target leetcode134"
 .PHONY : CMakeFiles/leetcode134.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1053,7 +1088,7 @@ leetcode134: CMakeFiles/leetcode134.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode134.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode134.dir/build.make CMakeFiles/leetcode134.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=47,48 "Finished codegen for target leetcode134"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=49,50 "Finished codegen for target leetcode134"
 .PHONY : CMakeFiles/leetcode134.dir/codegen
 
 # clean rule for target.
@@ -1068,7 +1103,7 @@ CMakeFiles/leetcode134.dir/clean:
 CMakeFiles/leetcode135.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode135.dir/build.make CMakeFiles/leetcode135.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode135.dir/build.make CMakeFiles/leetcode135.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=49,50 "Built target leetcode135"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=51,52 "Built target leetcode135"
 .PHONY : CMakeFiles/leetcode135.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1085,7 +1120,7 @@ leetcode135: CMakeFiles/leetcode135.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode135.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode135.dir/build.make CMakeFiles/leetcode135.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=49,50 "Finished codegen for target leetcode135"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=51,52 "Finished codegen for target leetcode135"
 .PHONY : CMakeFiles/leetcode135.dir/codegen
 
 # clean rule for target.
@@ -1100,7 +1135,7 @@ CMakeFiles/leetcode135.dir/clean:
 CMakeFiles/leetcode45.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode45.dir/build.make CMakeFiles/leetcode45.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode45.dir/build.make CMakeFiles/leetcode45.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=55,56 "Built target leetcode45"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=57,58 "Built target leetcode45"
 .PHONY : CMakeFiles/leetcode45.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1117,7 +1152,7 @@ leetcode45: CMakeFiles/leetcode45.dir/rule
 # codegen rule for target.
 CMakeFiles/leetcode45.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode45.dir/build.make CMakeFiles/leetcode45.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=55,56 "Finished codegen for target leetcode45"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hinrayleung/Documents/BNU/algorithm/Algorithm_BNU_2025_CPP/build/CMakeFiles --progress-num=57,58 "Finished codegen for target leetcode45"
 .PHONY : CMakeFiles/leetcode45.dir/codegen
 
 # clean rule for target.
