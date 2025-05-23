@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/luoguP1908.dir/notes_Divide_and_Conquer/luoguP1908.cpp.o -o luoguP1908  /opt/homebrew/opt/libomp/lib/libomp.dylib

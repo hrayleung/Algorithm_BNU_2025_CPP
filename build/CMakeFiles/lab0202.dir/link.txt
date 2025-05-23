@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lab0202.dir/lab02/lab0202.cpp.o -o lab0202  /opt/homebrew/opt/libomp/lib/libomp.dylib

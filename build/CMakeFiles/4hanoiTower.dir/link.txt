@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/4hanoiTower.dir/notes_Divide_and_Conquer/4hanoiTower.cpp.o -o 4hanoiTower  /opt/homebrew/opt/libomp/lib/libomp.dylib

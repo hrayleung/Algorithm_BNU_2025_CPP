@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/LIS_optimized.dir/notes_DP/LIS_optimized.cpp.o -o LIS_optimized  /opt/homebrew/opt/libomp/lib/libomp.dylib

@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lab0403.dir/lab04/lab0403.cpp.o -o lab0403  /opt/homebrew/opt/libomp/lib/libomp.dylib
