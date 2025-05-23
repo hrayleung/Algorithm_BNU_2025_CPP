@@ -18,6 +18,9 @@ Makefile
 # macOS file
 .DS_Store
 
+# Language server cache
+.cache/
+
 # Default ignored files
 /shelf/
 /workspace.xml
