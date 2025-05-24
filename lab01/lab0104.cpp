@@ -2,8 +2,10 @@
 #include <vector>
 #include <random>
 #include <algorithm>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 vector<int> generateRandomArray(int size);
 void heapSort(vector<int>& array);
 void heapify(vector<int>& array, int heapSize, int index);
@@ -29,16 +31,16 @@ int main() {
             vector<int> arrforheap = array;
             vector<int> arrforinsertion = array;
 
-            auto startHeap = chrono::high_resolution_clock::now();
+            auto startHeap = high_resolution_clock::now();
             heapSort(arrforheap);
-            auto endHeap = chrono::high_resolution_clock::now();
-            long long timeHeap = chrono::duration_cast<chrono::nanoseconds>(endHeap - startHeap).count();
+            auto endHeap = high_resolution_clock::now();
+            long long timeHeap = duration_cast<nanoseconds>(endHeap - startHeap).count();
             totalTimeHeap += timeHeap;
 
-            auto startInsertion = chrono::high_resolution_clock::now();
+            auto startInsertion = high_resolution_clock::now();
             insertionSort(arrforinsertion);
-            auto endInsertion = chrono::high_resolution_clock::now();
-            long long timeInsertion = chrono::duration_cast<chrono::nanoseconds>(endInsertion - startInsertion).count();
+            auto endInsertion = high_resolution_clock::now();
+            long long timeInsertion = duration_cast<nanoseconds>(endInsertion - startInsertion).count();
             totalTimeInsertion += timeInsertion;
         }
 
