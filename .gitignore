@@ -28,4 +28,5 @@ Makefile
 /httpRequests/
 # Datasource local storage ignored files
 /dataSources/
-/dataSources.local.xml CMakeLists.txt
+/dataSources.local.xml
+CMakeLists.txt
